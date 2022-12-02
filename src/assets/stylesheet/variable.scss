@@ -1,0 +1,22 @@
+@use 'sass:math';
+// color
+$black: #000;
+$white: #fff;
+
+// font
+$roboto: 'Roboto';
+$noto: 'Noto Sans CJK KR';
+
+/* 
+	px > vw Unit Conversion
+	
+	Usage :
+	.container {
+		margin: size(20);	// px
+	}
+*/
+$base-size: 16; // html default font size
+
+@function size($target, $context: $base-size) {
+    @return ($target / $context) * 1.4vw;
+}
