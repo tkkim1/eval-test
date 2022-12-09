@@ -13,7 +13,11 @@ export const GlobalStore = defineStore({
         // userInfo
         userInfo: '',
     }),
-    getters: {},
+    getters: {
+        getUserInfo(state) {
+            return state.userInfo;
+        }
+    },
     actions: {
         // setToken
         setToken(token) {
