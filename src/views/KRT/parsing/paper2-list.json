@@ -1,0 +1,625 @@
+{
+  "status": 200,
+  "message": "성공",
+  "elapsedTime": 3,
+  "timestamp": "20220929105014",
+  "data": {
+    "examIds": [103978, 102525, 102553, 102518],
+    "examNms": ["STK_10_02_1R_0", "STK_10_02_2L_0", "STK_10_02_3W_0", "STK_10_02_4L_0"],
+    "examMaps": {
+      "103978": [
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246645,
+          "distribution": null,
+          "etcCd04": "17",
+          "etcCd09": null,
+          "order": 1,
+          "typeCode": 80
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246646,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 2,
+          "typeCode": 97
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246647,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 3,
+          "typeCode": 91
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246648,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 4,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246649,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 5,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246650,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": null,
+          "order": 6,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246651,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 7,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246652,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 8,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246653,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 9,
+          "typeCode": 97
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246654,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 10,
+          "typeCode": 91
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246658,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 11,
+          "typeCode": 91
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246661,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 12,
+          "typeCode": 91
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246662,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 13,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246663,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 14,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246664,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 15,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246665,
+          "distribution": null,
+          "etcCd04": null,
+          "etcCd09": null,
+          "order": 16,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246666,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 17,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246667,
+          "distribution": null,
+          "etcCd04": "03",
+          "etcCd09": "",
+          "order": 18,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246668,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 19,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246669,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 20,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246670,
+          "distribution": null,
+          "etcCd04": null,
+          "etcCd09": null,
+          "order": 21,
+          "typeCode": 70
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246671,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 22,
+          "typeCode": 97
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246672,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 23,
+          "typeCode": 91
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246673,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 24,
+          "typeCode": 91
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246674,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 25,
+          "typeCode": 91
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246675,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 26,
+          "typeCode": 91
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246676,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 27,
+          "typeCode": 91
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246677,
+          "distribution": null,
+          "etcCd04": "06",
+          "etcCd09": "",
+          "order": 28,
+          "typeCode": 61
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246678,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 29,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246679,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 30,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246680,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 31,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246681,
+          "distribution": null,
+          "etcCd04": "03",
+          "etcCd09": "",
+          "order": 32,
+          "typeCode": 61
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246682,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 33,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246683,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 34,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246684,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": null,
+          "order": 35,
+          "typeCode": 50
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246685,
+          "distribution": null,
+          "etcCd04": null,
+          "etcCd09": null,
+          "order": 36,
+          "typeCode": 70
+        },
+        {
+          "examId": 103978,
+          "examNm": "STK_10_02_1R_0",
+          "kind": "1",
+          "problemId": 246686,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 37,
+          "typeCode": 50
+        }
+      ],
+      "102525": [
+        {
+          "examId": 102525,
+          "examNm": "STK_10_02_2L_0",
+          "kind": "1",
+          "problemId": 228801,
+          "distribution": null,
+          "etcCd04": "18",
+          "etcCd09": null,
+          "order": 1,
+          "typeCode": 80
+        },
+        {
+          "examId": 102525,
+          "examNm": "STK_10_02_2L_0",
+          "kind": "1",
+          "problemId": 228802,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 2,
+          "typeCode": 23
+        },
+        {
+          "examId": 102525,
+          "examNm": "STK_10_02_2L_0",
+          "kind": "1",
+          "problemId": 228803,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 3,
+          "typeCode": 50
+        },
+        {
+          "examId": 102525,
+          "examNm": "STK_10_02_2L_0",
+          "kind": "1",
+          "problemId": 228804,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 4,
+          "typeCode": 50
+        },
+        {
+          "examId": 102525,
+          "examNm": "STK_10_02_2L_0",
+          "kind": "1",
+          "problemId": 228805,
+          "distribution": null,
+          "etcCd04": "03",
+          "etcCd09": null,
+          "order": 5,
+          "typeCode": 40
+        },
+        {
+          "examId": 102525,
+          "examNm": "STK_10_02_2L_0",
+          "kind": "1",
+          "problemId": 228806,
+          "distribution": null,
+          "etcCd04": "03",
+          "etcCd09": null,
+          "order": 6,
+          "typeCode": 40
+        }
+      ],
+      "102553": [
+        {
+          "examId": 102553,
+          "examNm": "STK_10_02_3W_0",
+          "kind": "1",
+          "problemId": 229001,
+          "distribution": null,
+          "etcCd04": "19",
+          "etcCd09": null,
+          "order": 1,
+          "typeCode": 80
+        },
+        {
+          "examId": 102553,
+          "examNm": "STK_10_02_3W_0",
+          "kind": "1",
+          "problemId": 229002,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 2,
+          "typeCode": 23
+        },
+        {
+          "examId": 102553,
+          "examNm": "STK_10_02_3W_0",
+          "kind": "1",
+          "problemId": 229003,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 3,
+          "typeCode": 50
+        },
+        {
+          "examId": 102553,
+          "examNm": "STK_10_02_3W_0",
+          "kind": "1",
+          "problemId": 229004,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 4,
+          "typeCode": 70
+        },
+        {
+          "examId": 102553,
+          "examNm": "STK_10_02_3W_0",
+          "kind": "1",
+          "problemId": 229005,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 5,
+          "typeCode": 50
+        },
+        {
+          "examId": 102553,
+          "examNm": "STK_10_02_3W_0",
+          "kind": "1",
+          "problemId": 229006,
+          "distribution": null,
+          "etcCd04": "03",
+          "etcCd09": null,
+          "order": 6,
+          "typeCode": 50
+        },
+        {
+          "examId": 102553,
+          "examNm": "STK_10_02_3W_0",
+          "kind": "1",
+          "problemId": 229007,
+          "distribution": null,
+          "etcCd04": "03",
+          "etcCd09": null,
+          "order": 7,
+          "typeCode": 50
+        }
+      ],
+      "102518": [
+        {
+          "examId": 102518,
+          "examNm": "STK_10_02_4L_0",
+          "kind": "1",
+          "problemId": 228795,
+          "distribution": null,
+          "etcCd04": "20",
+          "etcCd09": null,
+          "order": 1,
+          "typeCode": 80
+        },
+        {
+          "examId": 102518,
+          "examNm": "STK_10_02_4L_0",
+          "kind": "1",
+          "problemId": 228796,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 2,
+          "typeCode": 50
+        },
+        {
+          "examId": 102518,
+          "examNm": "STK_10_02_4L_0",
+          "kind": "1",
+          "problemId": 228797,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 3,
+          "typeCode": 23
+        },
+        {
+          "examId": 102518,
+          "examNm": "STK_10_02_4L_0",
+          "kind": "1",
+          "problemId": 228798,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 4,
+          "typeCode": 70
+        },
+        {
+          "examId": 102518,
+          "examNm": "STK_10_02_4L_0",
+          "kind": "1",
+          "problemId": 228799,
+          "distribution": null,
+          "etcCd04": "25",
+          "etcCd09": null,
+          "order": 5,
+          "typeCode": 83
+        }
+      ]
+    }
+  }
+}

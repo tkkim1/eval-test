@@ -1,0 +1,69 @@
+{
+  "status": 200,
+  "message": "성공",
+  "elapsedTime": 3,
+  "timestamp": "20220929104958",
+  "data": {
+    "examIds": [102518],
+    "examNms": ["STK_10_02_4L_0"],
+    "examMaps": {
+      "102518": [
+        {
+          "examId": 102518,
+          "examNm": "STK_10_02_4L_0",
+          "kind": "1",
+          "problemId": 228795,
+          "distribution": null,
+          "etcCd04": "20",
+          "etcCd09": null,
+          "order": 1,
+          "typeCode": 80
+        },
+        {
+          "examId": 102518,
+          "examNm": "STK_10_02_4L_0",
+          "kind": "1",
+          "problemId": 228796,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 2,
+          "typeCode": 50
+        },
+        {
+          "examId": 102518,
+          "examNm": "STK_10_02_4L_0",
+          "kind": "1",
+          "problemId": 228797,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 3,
+          "typeCode": 23
+        },
+        {
+          "examId": 102518,
+          "examNm": "STK_10_02_4L_0",
+          "kind": "1",
+          "problemId": 228798,
+          "distribution": null,
+          "etcCd04": "",
+          "etcCd09": "",
+          "order": 4,
+          "typeCode": 70
+        },
+        {
+          "examId": 102518,
+          "examNm": "STK_10_02_4L_0",
+          "kind": "1",
+          "problemId": 228799,
+          "distribution": null,
+          "etcCd04": "25",
+          "etcCd09": null,
+          "order": 5,
+          "typeCode": 83
+        }
+      ]
+    }
+  }
+}

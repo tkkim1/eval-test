@@ -1,0 +1,571 @@
+{
+  "status": 200,
+  "message": "성공",
+  "elapsedTime": 6,
+  "timestamp": "20220929101421",
+  "data": {
+    "content": {
+      "fileId": 233526,
+      "problemId": 233449,
+      "dsSvcVersion": "1.01.71",
+      "header": null,
+      "problem": {
+        "type": "86",
+        "fileId": 233526,
+        "headerId": 0,
+        "testYn": "Y",
+        "usage": "02",
+        "weight": "02",
+        "stateCd": "01",
+        "difficultCd": "03",
+        "totalCnt": 0,
+        "listen": "",
+        "choiceArray": "5",
+        "question": {
+          "texts": [
+            {
+              "align": null,
+              "marginLeft": 1.3,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\"/><CHAR size=\"14.3\">알맞게 배열하여 문장을 완성하세요.</CHAR>",
+              "elements": [
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 15.6,
+                    "elements": [],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": ""
+                  }
+                },
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 14.3,
+                    "elements": [],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": "알맞게 배열하여 문장을 완성하세요."
+                  }
+                }
+              ],
+              "decorations": []
+            },
+            {
+              "align": "center",
+              "marginLeft": 0.0,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"14.3\"><IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_1.png\" iedata=\"/bank/problem/2335/233526/question/_hcv_qn33526_1_100.png\" width=\"556\" height=\"398\"/></CHAR>",
+              "elements": [
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 14.3,
+                    "elements": [
+                      {
+                        "image": {
+                          "path": "/bank/problem/2335/233526/question/_hcv_qn33526_1.png",
+                          "multimedia": null,
+                          "movie": false,
+                          "sound": false,
+                          "width": 556,
+                          "valign": null,
+                          "float": null,
+                          "iedata": "/bank/problem/2335/233526/question/_hcv_qn33526_1_100.png",
+                          "height": 398
+                        }
+                      }
+                    ],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": "<IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_1.png\" iedata=\"/bank/problem/2335/233526/question/_hcv_qn33526_1_100.png\" width=\"556\" height=\"398\"/>"
+                  }
+                }
+              ],
+              "decorations": []
+            },
+            {
+              "align": "center",
+              "marginLeft": 0.0,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"26\"><DROPBLOCK width=\"138\" height=\"66\"><IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_2.gif\" width=\"138\" height=\"66\"/><DROPAREA multidrop=\"N\" numindex=\"ⓐ\" left=\"2\" top=\"10\" width=\"128\" height=\"55\" align=\"\"/></DROPBLOCK></CHAR><CHAR size=\"26\"> <DROPBLOCK width=\"138\" height=\"66\"><IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_3.gif\" width=\"138\" height=\"66\"/><DROPAREA multidrop=\"N\" numindex=\"ⓑ\" left=\"2\" top=\"10\" width=\"128\" height=\"55\" align=\"\"/></DROPBLOCK></CHAR><CHAR size=\"26\"> <DROPBLOCK width=\"138\" height=\"66\"><IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_4.gif\" width=\"138\" height=\"66\"/><DROPAREA multidrop=\"N\" numindex=\"ⓒ\" left=\"2\" top=\"10\" width=\"128\" height=\"55\" align=\"\"/></DROPBLOCK></CHAR><CHAR size=\"26\"> <DROPBLOCK width=\"138\" height=\"66\"><IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_5.gif\" width=\"138\" height=\"66\"/><DROPAREA multidrop=\"N\" numindex=\"ⓓ\" left=\"2\" top=\"10\" width=\"128\" height=\"55\" align=\"\"/></DROPBLOCK></CHAR>",
+              "elements": [
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 26,
+                    "elements": [
+                      {
+                        "dropBlock": {
+                          "elements": [
+                            {
+                              "image": {
+                                "path": "/bank/problem/2335/233526/question/_hcv_qn33526_2.gif",
+                                "multimedia": null,
+                                "movie": false,
+                                "sound": false,
+                                "width": 138,
+                                "valign": null,
+                                "float": null,
+                                "iedata": null,
+                                "height": 66
+                              }
+                            },
+                            {
+                              "dropArea": {
+                                "multiDrop": "N",
+                                "top": 10,
+                                "left": 2,
+                                "width": 128,
+                                "align": "",
+                                "numIndex": "ⓐ",
+                                "height": 55
+                              }
+                            }
+                          ],
+                          "width": 138,
+                          "decorations": [],
+                          "content": "<IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_2.gif\" width=\"138\" height=\"66\"/><DROPAREA multidrop=\"N\" numindex=\"ⓐ\" left=\"2\" top=\"10\" width=\"128\" height=\"55\" align=\"\"/>",
+                          "height": 66
+                        }
+                      }
+                    ],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": "<DROPBLOCK width=\"138\" height=\"66\"><IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_2.gif\" width=\"138\" height=\"66\"/><DROPAREA multidrop=\"N\" numindex=\"ⓐ\" left=\"2\" top=\"10\" width=\"128\" height=\"55\" align=\"\"/></DROPBLOCK>"
+                  }
+                },
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 26,
+                    "elements": [
+                      {
+                        "dropBlock": {
+                          "elements": [
+                            {
+                              "image": {
+                                "path": "/bank/problem/2335/233526/question/_hcv_qn33526_3.gif",
+                                "multimedia": null,
+                                "movie": false,
+                                "sound": false,
+                                "width": 138,
+                                "valign": null,
+                                "float": null,
+                                "iedata": null,
+                                "height": 66
+                              }
+                            },
+                            {
+                              "dropArea": {
+                                "multiDrop": "N",
+                                "top": 10,
+                                "left": 2,
+                                "width": 128,
+                                "align": "",
+                                "numIndex": "ⓑ",
+                                "height": 55
+                              }
+                            }
+                          ],
+                          "width": 138,
+                          "decorations": [],
+                          "content": "<IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_3.gif\" width=\"138\" height=\"66\"/><DROPAREA multidrop=\"N\" numindex=\"ⓑ\" left=\"2\" top=\"10\" width=\"128\" height=\"55\" align=\"\"/>",
+                          "height": 66
+                        }
+                      }
+                    ],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": " <DROPBLOCK width=\"138\" height=\"66\"><IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_3.gif\" width=\"138\" height=\"66\"/><DROPAREA multidrop=\"N\" numindex=\"ⓑ\" left=\"2\" top=\"10\" width=\"128\" height=\"55\" align=\"\"/></DROPBLOCK>"
+                  }
+                },
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 26,
+                    "elements": [
+                      {
+                        "dropBlock": {
+                          "elements": [
+                            {
+                              "image": {
+                                "path": "/bank/problem/2335/233526/question/_hcv_qn33526_4.gif",
+                                "multimedia": null,
+                                "movie": false,
+                                "sound": false,
+                                "width": 138,
+                                "valign": null,
+                                "float": null,
+                                "iedata": null,
+                                "height": 66
+                              }
+                            },
+                            {
+                              "dropArea": {
+                                "multiDrop": "N",
+                                "top": 10,
+                                "left": 2,
+                                "width": 128,
+                                "align": "",
+                                "numIndex": "ⓒ",
+                                "height": 55
+                              }
+                            }
+                          ],
+                          "width": 138,
+                          "decorations": [],
+                          "content": "<IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_4.gif\" width=\"138\" height=\"66\"/><DROPAREA multidrop=\"N\" numindex=\"ⓒ\" left=\"2\" top=\"10\" width=\"128\" height=\"55\" align=\"\"/>",
+                          "height": 66
+                        }
+                      }
+                    ],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": " <DROPBLOCK width=\"138\" height=\"66\"><IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_4.gif\" width=\"138\" height=\"66\"/><DROPAREA multidrop=\"N\" numindex=\"ⓒ\" left=\"2\" top=\"10\" width=\"128\" height=\"55\" align=\"\"/></DROPBLOCK>"
+                  }
+                },
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 26,
+                    "elements": [
+                      {
+                        "dropBlock": {
+                          "elements": [
+                            {
+                              "image": {
+                                "path": "/bank/problem/2335/233526/question/_hcv_qn33526_5.gif",
+                                "multimedia": null,
+                                "movie": false,
+                                "sound": false,
+                                "width": 138,
+                                "valign": null,
+                                "float": null,
+                                "iedata": null,
+                                "height": 66
+                              }
+                            },
+                            {
+                              "dropArea": {
+                                "multiDrop": "N",
+                                "top": 10,
+                                "left": 2,
+                                "width": 128,
+                                "align": "",
+                                "numIndex": "ⓓ",
+                                "height": 55
+                              }
+                            }
+                          ],
+                          "width": 138,
+                          "decorations": [],
+                          "content": "<IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_5.gif\" width=\"138\" height=\"66\"/><DROPAREA multidrop=\"N\" numindex=\"ⓓ\" left=\"2\" top=\"10\" width=\"128\" height=\"55\" align=\"\"/>",
+                          "height": 66
+                        }
+                      }
+                    ],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": " <DROPBLOCK width=\"138\" height=\"66\"><IMAGE path=\"/bank/problem/2335/233526/question/_hcv_qn33526_5.gif\" width=\"138\" height=\"66\"/><DROPAREA multidrop=\"N\" numindex=\"ⓓ\" left=\"2\" top=\"10\" width=\"128\" height=\"55\" align=\"\"/></DROPBLOCK>"
+                  }
+                }
+              ],
+              "decorations": []
+            },
+            {
+              "align": "center",
+              "marginLeft": 0.0,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"26\"><BOLD><DRAGITEM value=\"①\" copyyn=\"N\"><DRAGTEXT>rich</DRAGTEXT></DRAGITEM><DRAGITEM value=\"②\" copyyn=\"N\"><DRAGTEXT>are</DRAGTEXT></DRAGITEM><DRAGITEM value=\"③\" copyyn=\"N\"><DRAGTEXT>They</DRAGTEXT></DRAGITEM><DRAGITEM value=\"④\" copyyn=\"N\"><DRAGTEXT>actors.</DRAGTEXT></DRAGITEM></BOLD></CHAR>",
+              "elements": [
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 26,
+                    "elements": [
+                      {
+                        "dragItem": {
+                          "elements": [
+                            {
+                              "dragText": {
+                                "content": "rich"
+                              }
+                            }
+                          ],
+                          "decorations": [],
+                          "copy": "N",
+                          "value": "①",
+                          "content": "<DRAGTEXT>rich</DRAGTEXT>"
+                        }
+                      },
+                      {
+                        "dragItem": {
+                          "elements": [
+                            {
+                              "dragText": {
+                                "content": "are"
+                              }
+                            }
+                          ],
+                          "decorations": [],
+                          "copy": "N",
+                          "value": "②",
+                          "content": "<DRAGTEXT>are</DRAGTEXT>"
+                        }
+                      },
+                      {
+                        "dragItem": {
+                          "elements": [
+                            {
+                              "dragText": {
+                                "content": "They"
+                              }
+                            }
+                          ],
+                          "decorations": [],
+                          "copy": "N",
+                          "value": "③",
+                          "content": "<DRAGTEXT>They</DRAGTEXT>"
+                        }
+                      },
+                      {
+                        "dragItem": {
+                          "elements": [
+                            {
+                              "dragText": {
+                                "content": "actors."
+                              }
+                            }
+                          ],
+                          "decorations": [],
+                          "copy": "N",
+                          "value": "④",
+                          "content": "<DRAGTEXT>actors.</DRAGTEXT>"
+                        }
+                      }
+                    ],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": "<BOLD><DRAGITEM value=\"①\" copyyn=\"N\"><DRAGTEXT>rich</DRAGTEXT></DRAGITEM><DRAGITEM value=\"②\" copyyn=\"N\"><DRAGTEXT>are</DRAGTEXT></DRAGITEM><DRAGITEM value=\"③\" copyyn=\"N\"><DRAGTEXT>They</DRAGTEXT></DRAGITEM><DRAGITEM value=\"④\" copyyn=\"N\"><DRAGTEXT>actors.</DRAGTEXT></DRAGITEM></BOLD>"
+                  }
+                }
+              ],
+              "decorations": []
+            }
+          ],
+          "textBoxes": []
+        },
+        "choice": null,
+        "etc": {
+          "fileId": 233526,
+          "etcCd01": "",
+          "etcCd02": "",
+          "etcCd03": "",
+          "etcCd04": "01",
+          "etcCd05": "04",
+          "etcCd06": "",
+          "etcCd07": "",
+          "etcCd08": "",
+          "etcCd09": "01",
+          "etcCd10": "",
+          "etcTxt01": "",
+          "etcTxt02": "",
+          "etcTxt03": "",
+          "etcTxt04": "",
+          "etcTxt05": "",
+          "etcTxt06": "",
+          "etcTxt07": "",
+          "etcTxt08": "",
+          "etcTxt09": "",
+          "etcTxt10": ""
+        }
+      },
+      "solution": {
+        "fileId": 233526,
+        "answer": {
+          "texts": [
+            {
+              "align": null,
+              "marginLeft": 1.3,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\"/><CHAR size=\"14.3\">They are rich actors.</CHAR><CHAR size=\"15.6\"/>",
+              "elements": [
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 15.6,
+                    "elements": [],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": ""
+                  }
+                },
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 14.3,
+                    "elements": [],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": "They are rich actors."
+                  }
+                },
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 15.6,
+                    "elements": [],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": ""
+                  }
+                }
+              ],
+              "decorations": []
+            }
+          ],
+          "textBoxes": null,
+          "detail": [
+            {
+              "fileId": 233526,
+              "answer": "ⓐ:③",
+              "answer4latex": "",
+              "chkcase": "N",
+              "ignorespace": "N",
+              "multiline": "N",
+              "equation": "N",
+              "legend": "",
+              "keyboard": "N0",
+              "ord": 1,
+              "index": 1
+            },
+            {
+              "fileId": 233526,
+              "answer": "ⓑ:②",
+              "answer4latex": "",
+              "chkcase": "N",
+              "ignorespace": "N",
+              "multiline": "N",
+              "equation": "N",
+              "legend": "",
+              "keyboard": "00",
+              "ord": 2,
+              "index": 1
+            },
+            {
+              "fileId": 233526,
+              "answer": "ⓒ:①",
+              "answer4latex": "",
+              "chkcase": "N",
+              "ignorespace": "N",
+              "multiline": "N",
+              "equation": "N",
+              "legend": "",
+              "keyboard": "00",
+              "ord": 3,
+              "index": 1
+            },
+            {
+              "fileId": 233526,
+              "answer": "ⓓ:④",
+              "answer4latex": "",
+              "chkcase": "N",
+              "ignorespace": "N",
+              "multiline": "N",
+              "equation": "N",
+              "legend": "",
+              "keyboard": "00",
+              "ord": 4,
+              "index": 1
+            }
+          ]
+        },
+        "explain": {
+          "texts": [
+            {
+              "align": null,
+              "marginLeft": 1.3,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\"> </CHAR>",
+              "elements": [
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 15.6,
+                    "elements": [],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": " "
+                  }
+                }
+              ],
+              "decorations": []
+            }
+          ],
+          "textBoxes": null,
+          "contentBlocks": null
+        },
+        "hint": {
+          "texts": [
+            {
+              "align": null,
+              "marginLeft": 1.3,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\"> </CHAR>",
+              "elements": [
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 15.6,
+                    "elements": [],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": " "
+                  }
+                }
+              ],
+              "decorations": []
+            }
+          ],
+          "textBoxes": null,
+          "contentBlocks": null
+        },
+        "script": {
+          "texts": [
+            {
+              "align": null,
+              "marginLeft": 1.3,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\"> </CHAR>",
+              "elements": [
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 15.6,
+                    "elements": [],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": " "
+                  }
+                }
+              ],
+              "decorations": []
+            }
+          ],
+          "textBoxes": null,
+          "contentBlocks": null
+        }
+      }
+    }
+  }
+}

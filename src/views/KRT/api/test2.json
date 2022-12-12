@@ -1,0 +1,764 @@
+{
+  "statusCode": "200",
+  "message": "성공",
+  "data": {
+    "content": {
+      "fileId": 382250,
+      "headerId": 373616,
+      "problemId": 382219,
+      "version": null,
+      "header": {
+        "headerId": 373616,
+        "headerContent": {
+          "texts": [
+            {
+              "align": null,
+              "marginLeft": 0.0,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\"/>",
+              "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": ""}}],
+              "decorations": []
+            },
+            {
+              "align": null,
+              "marginLeft": 0.0,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<TEXTBOX borderleft=\"solid #000000 1px\" borderright=\"solid #000000 1px\" borderbottom=\"solid #000000 1px\" bordertop=\"solid #000000 1px\"><TEXT><CHAR size=\"15.6\">풀잎은</CHAR></TEXT><TEXT><CHAR size=\"15.6\">ⓐ</CHAR><CHAR size=\"15.6\"><UNDERLINE>퍽</UNDERLINE></CHAR><CHAR size=\"15.6\">도 아름다운 이름을 가졌어요.</CHAR></TEXT><TEXT><CHAR size=\"15.6\">우리가 ‘풀잎’하고 그를 부를 때는,</CHAR></TEXT><TEXT><CHAR size=\"15.6\">우리들의 입 속에서는 ㉠</CHAR><CHAR size=\"15.6\"><UNDERLINE>푸른 휘파람</UNDERLINE></CHAR><CHAR size=\"15.6\"> 소리가 나거든요.</CHAR></TEXT><TEXT><CHAR size=\"15.6\"> </CHAR></TEXT><TEXT><CHAR size=\"15.6\">바람이 부는 날의 풀잎들은</CHAR></TEXT><TEXT><CHAR size=\"15.6\">왜 저리 몸을 흔들까요.</CHAR></TEXT><TEXT><CHAR size=\"15.6\">소나기가 오는 날의 풀잎들은</CHAR></TEXT><TEXT><CHAR size=\"15.6\">왜 저리 또 몸을 통통거릴까요.</CHAR></TEXT><TEXT><CHAR size=\"15.6\"> </CHAR></TEXT><TEXT><CHAR size=\"15.6\">그러나 풀잎은</CHAR></TEXT><TEXT><CHAR size=\"15.6\">퍽도 아름다운 이름을 가졌어요.</CHAR></TEXT><TEXT><TABLE><ROW><CELL width=\"12\" height=\"11\" padding=\"\"/><CELL width=\"19\" height=\"11\" padding=\"\" borderbottom=\"solid #000000 1px\"/><CELL rowspan=\"5\" width=\"527\" height=\"87\" padding=\"\"><TEXT><CHAR size=\"15.6\">우리가 ‘풀잎’, ‘풀잎’ 하고 자꾸 부르면,</CHAR></TEXT><TEXT><CHAR size=\"15.6\">우리의 몸과 맘도 ⓑ</CHAR><CHAR size=\"15.6\"><UNDERLINE>어느덧</UNDERLINE></CHAR></TEXT><TEXT><CHAR size=\"15.6\">푸른 풀잎이 돼 버리거든요.</CHAR></TEXT></CELL></ROW><ROW><CELL width=\"12\" height=\"24\" padding=\"\" borderright=\"solid #000000 1px\"/><CELL width=\"19\" height=\"24\" padding=\"\" borderleft=\"solid #000000 1px\" bordertop=\"solid #000000 1px\"/></ROW><ROW><CELL colspan=\"2\" width=\"31\" height=\"14\" padding=\"\"><TEXT align=\"center\"><CHAR size=\"15.6\">[A]</CHAR></TEXT></CELL></ROW><ROW><CELL width=\"12\" height=\"26\" padding=\"\" borderright=\"solid #000000 1px\"/><CELL width=\"19\" height=\"26\" padding=\"\" borderleft=\"solid #000000 1px\" borderbottom=\"solid #000000 1px\"/></ROW><ROW><CELL width=\"12\" height=\"12\" padding=\"\"/><CELL width=\"19\" height=\"12\" padding=\"\" bordertop=\"solid #000000 1px\"/></ROW></TABLE></TEXT><TEXT/><TEXT><CHAR size=\"15.6\"> </CHAR></TEXT><TEXT align=\"right\">-<CHAR size=\"15.6\">박성룡, ｢풀잎｣ -</CHAR></TEXT></TEXTBOX>",
+              "elements": [
+                {
+                  "textBox": {
+                    "borderLeft": "solid #000000 1px",
+                    "borderRight": "solid #000000 1px",
+                    "elements": [
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "풀잎은"}}],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<CHAR size=\"15.6\">풀잎은</CHAR>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [
+                            {"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "ⓐ"}},
+                            {"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [{"underLine": {"value": "퍽"}}], "foreColor": null, "content": "<UNDERLINE>퍽</UNDERLINE>"}},
+                            {"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "도 아름다운 이름을 가졌어요."}}
+                          ],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<CHAR size=\"15.6\">ⓐ</CHAR><CHAR size=\"15.6\"><UNDERLINE>퍽</UNDERLINE></CHAR><CHAR size=\"15.6\">도 아름다운 이름을 가졌어요.</CHAR>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "우리가 ‘풀잎’하고 그를 부를 때는,"}}],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<CHAR size=\"15.6\">우리가 ‘풀잎’하고 그를 부를 때는,</CHAR>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [
+                            {"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "우리들의 입 속에서는 ㉠"}},
+                            {
+                              "char": {
+                                "backColor": null,
+                                "size": 15.6,
+                                "elements": [],
+                                "decorations": [{"underLine": {"value": "푸른 휘파람"}}],
+                                "foreColor": null,
+                                "content": "<UNDERLINE>푸른 휘파람</UNDERLINE>"
+                              }
+                            },
+                            {"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": " 소리가 나거든요."}}
+                          ],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<CHAR size=\"15.6\">우리들의 입 속에서는 ㉠</CHAR><CHAR size=\"15.6\"><UNDERLINE>푸른 휘파람</UNDERLINE></CHAR><CHAR size=\"15.6\"> 소리가 나거든요.</CHAR>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": " "}}],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<CHAR size=\"15.6\"> </CHAR>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "바람이 부는 날의 풀잎들은"}}],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<CHAR size=\"15.6\">바람이 부는 날의 풀잎들은</CHAR>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "왜 저리 몸을 흔들까요."}}],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<CHAR size=\"15.6\">왜 저리 몸을 흔들까요.</CHAR>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "소나기가 오는 날의 풀잎들은"}}],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<CHAR size=\"15.6\">소나기가 오는 날의 풀잎들은</CHAR>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "왜 저리 또 몸을 통통거릴까요."}}],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<CHAR size=\"15.6\">왜 저리 또 몸을 통통거릴까요.</CHAR>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": " "}}],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<CHAR size=\"15.6\"> </CHAR>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "그러나 풀잎은"}}],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<CHAR size=\"15.6\">그러나 풀잎은</CHAR>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "퍽도 아름다운 이름을 가졌어요."}}],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<CHAR size=\"15.6\">퍽도 아름다운 이름을 가졌어요.</CHAR>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [
+                            {
+                              "table": {
+                                "width": null,
+                                "rows": [
+                                  {
+                                    "cells": [
+                                      {
+                                        "padding": "",
+                                        "decorations": [],
+                                        "borderTop": null,
+                                        "content": "",
+                                        "colspan": null,
+                                        "borderLeft": null,
+                                        "backColor": null,
+                                        "borderRight": null,
+                                        "rowspan": null,
+                                        "elements": [],
+                                        "width": "12",
+                                        "borderBottom": null,
+                                        "height": "11"
+                                      },
+                                      {
+                                        "padding": "",
+                                        "decorations": [],
+                                        "borderTop": null,
+                                        "content": "",
+                                        "colspan": null,
+                                        "borderLeft": null,
+                                        "backColor": null,
+                                        "borderRight": null,
+                                        "rowspan": null,
+                                        "elements": [],
+                                        "width": "19",
+                                        "borderBottom": "solid #000000 1px",
+                                        "height": "11"
+                                      },
+                                      {
+                                        "padding": "",
+                                        "decorations": [],
+                                        "borderTop": null,
+                                        "content": "<TEXT><CHAR size=\"15.6\">우리가 ‘풀잎’, ‘풀잎’ 하고 자꾸 부르면,</CHAR></TEXT><TEXT><CHAR size=\"15.6\">우리의 몸과 맘도 ⓑ</CHAR><CHAR size=\"15.6\"><UNDERLINE>어느덧</UNDERLINE></CHAR></TEXT><TEXT><CHAR size=\"15.6\">푸른 풀잎이 돼 버리거든요.</CHAR></TEXT>",
+                                        "colspan": null,
+                                        "borderLeft": null,
+                                        "backColor": null,
+                                        "borderRight": null,
+                                        "rowspan": "5",
+                                        "elements": [
+                                          {
+                                            "text": {
+                                              "marginRight": 0,
+                                              "elements": [
+                                                {"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "우리가 ‘풀잎’, ‘풀잎’ 하고 자꾸 부르면,"}}
+                                              ],
+                                              "decorations": [],
+                                              "align": null,
+                                              "textIndent": 0,
+                                              "content": "<CHAR size=\"15.6\">우리가 ‘풀잎’, ‘풀잎’ 하고 자꾸 부르면,</CHAR>",
+                                              "marginLeft": 0
+                                            }
+                                          },
+                                          {
+                                            "text": {
+                                              "marginRight": 0,
+                                              "elements": [
+                                                {"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "우리의 몸과 맘도 ⓑ"}},
+                                                {
+                                                  "char": {
+                                                    "backColor": null,
+                                                    "size": 15.6,
+                                                    "elements": [],
+                                                    "decorations": [{"underLine": {"value": "어느덧"}}],
+                                                    "foreColor": null,
+                                                    "content": "<UNDERLINE>어느덧</UNDERLINE>"
+                                                  }
+                                                }
+                                              ],
+                                              "decorations": [],
+                                              "align": null,
+                                              "textIndent": 0,
+                                              "content": "<CHAR size=\"15.6\">우리의 몸과 맘도 ⓑ</CHAR><CHAR size=\"15.6\"><UNDERLINE>어느덧</UNDERLINE></CHAR>",
+                                              "marginLeft": 0
+                                            }
+                                          },
+                                          {
+                                            "text": {
+                                              "marginRight": 0,
+                                              "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "푸른 풀잎이 돼 버리거든요."}}],
+                                              "decorations": [],
+                                              "align": null,
+                                              "textIndent": 0,
+                                              "content": "<CHAR size=\"15.6\">푸른 풀잎이 돼 버리거든요.</CHAR>",
+                                              "marginLeft": 0
+                                            }
+                                          }
+                                        ],
+                                        "width": "527",
+                                        "borderBottom": null,
+                                        "height": "87"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "cells": [
+                                      {
+                                        "padding": "",
+                                        "decorations": [],
+                                        "borderTop": null,
+                                        "content": "",
+                                        "colspan": null,
+                                        "borderLeft": null,
+                                        "backColor": null,
+                                        "borderRight": "solid #000000 1px",
+                                        "rowspan": null,
+                                        "elements": [],
+                                        "width": "12",
+                                        "borderBottom": null,
+                                        "height": "24"
+                                      },
+                                      {
+                                        "padding": "",
+                                        "decorations": [],
+                                        "borderTop": "solid #000000 1px",
+                                        "content": "",
+                                        "colspan": null,
+                                        "borderLeft": "solid #000000 1px",
+                                        "backColor": null,
+                                        "borderRight": null,
+                                        "rowspan": null,
+                                        "elements": [],
+                                        "width": "19",
+                                        "borderBottom": null,
+                                        "height": "24"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "cells": [
+                                      {
+                                        "padding": "",
+                                        "decorations": [],
+                                        "borderTop": null,
+                                        "content": "<TEXT align=\"center\"><CHAR size=\"15.6\">[A]</CHAR></TEXT>",
+                                        "colspan": "2",
+                                        "borderLeft": null,
+                                        "backColor": null,
+                                        "borderRight": null,
+                                        "rowspan": null,
+                                        "elements": [
+                                          {
+                                            "text": {
+                                              "marginRight": 0,
+                                              "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "[A]"}}],
+                                              "decorations": [],
+                                              "align": "center",
+                                              "textIndent": 0,
+                                              "content": "<CHAR size=\"15.6\">[A]</CHAR>",
+                                              "marginLeft": 0
+                                            }
+                                          }
+                                        ],
+                                        "width": "31",
+                                        "borderBottom": null,
+                                        "height": "14"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "cells": [
+                                      {
+                                        "padding": "",
+                                        "decorations": [],
+                                        "borderTop": null,
+                                        "content": "",
+                                        "colspan": null,
+                                        "borderLeft": null,
+                                        "backColor": null,
+                                        "borderRight": "solid #000000 1px",
+                                        "rowspan": null,
+                                        "elements": [],
+                                        "width": "12",
+                                        "borderBottom": null,
+                                        "height": "26"
+                                      },
+                                      {
+                                        "padding": "",
+                                        "decorations": [],
+                                        "borderTop": null,
+                                        "content": "",
+                                        "colspan": null,
+                                        "borderLeft": "solid #000000 1px",
+                                        "backColor": null,
+                                        "borderRight": null,
+                                        "rowspan": null,
+                                        "elements": [],
+                                        "width": "19",
+                                        "borderBottom": "solid #000000 1px",
+                                        "height": "26"
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "cells": [
+                                      {
+                                        "padding": "",
+                                        "decorations": [],
+                                        "borderTop": null,
+                                        "content": "",
+                                        "colspan": null,
+                                        "borderLeft": null,
+                                        "backColor": null,
+                                        "borderRight": null,
+                                        "rowspan": null,
+                                        "elements": [],
+                                        "width": "12",
+                                        "borderBottom": null,
+                                        "height": "12"
+                                      },
+                                      {
+                                        "padding": "",
+                                        "decorations": [],
+                                        "borderTop": "solid #000000 1px",
+                                        "content": "",
+                                        "colspan": null,
+                                        "borderLeft": null,
+                                        "backColor": null,
+                                        "borderRight": null,
+                                        "rowspan": null,
+                                        "elements": [],
+                                        "width": "19",
+                                        "borderBottom": null,
+                                        "height": "12"
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "height": null,
+                                "backImage": null
+                              }
+                            }
+                          ],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<TABLE><ROW><CELL width=\"12\" height=\"11\" padding=\"\"/><CELL width=\"19\" height=\"11\" padding=\"\" borderbottom=\"solid #000000 1px\"/><CELL rowspan=\"5\" width=\"527\" height=\"87\" padding=\"\"><TEXT><CHAR size=\"15.6\">우리가 ‘풀잎’, ‘풀잎’ 하고 자꾸 부르면,</CHAR></TEXT><TEXT><CHAR size=\"15.6\">우리의 몸과 맘도 ⓑ</CHAR><CHAR size=\"15.6\"><UNDERLINE>어느덧</UNDERLINE></CHAR></TEXT><TEXT><CHAR size=\"15.6\">푸른 풀잎이 돼 버리거든요.</CHAR></TEXT></CELL></ROW><ROW><CELL width=\"12\" height=\"24\" padding=\"\" borderright=\"solid #000000 1px\"/><CELL width=\"19\" height=\"24\" padding=\"\" borderleft=\"solid #000000 1px\" bordertop=\"solid #000000 1px\"/></ROW><ROW><CELL colspan=\"2\" width=\"31\" height=\"14\" padding=\"\"><TEXT align=\"center\"><CHAR size=\"15.6\">[A]</CHAR></TEXT></CELL></ROW><ROW><CELL width=\"12\" height=\"26\" padding=\"\" borderright=\"solid #000000 1px\"/><CELL width=\"19\" height=\"26\" padding=\"\" borderleft=\"solid #000000 1px\" borderbottom=\"solid #000000 1px\"/></ROW><ROW><CELL width=\"12\" height=\"12\" padding=\"\"/><CELL width=\"19\" height=\"12\" padding=\"\" bordertop=\"solid #000000 1px\"/></ROW></TABLE>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {"text": {"marginRight": 0, "elements": [], "decorations": [], "align": null, "textIndent": 0, "content": "", "marginLeft": 0}},
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": " "}}],
+                          "decorations": [],
+                          "align": null,
+                          "textIndent": 0,
+                          "content": "<CHAR size=\"15.6\"> </CHAR>",
+                          "marginLeft": 0
+                        }
+                      },
+                      {
+                        "text": {
+                          "marginRight": 0,
+                          "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "박성룡, ｢풀잎｣ -"}}],
+                          "decorations": [],
+                          "align": "right",
+                          "textIndent": 0,
+                          "content": "-<CHAR size=\"15.6\">박성룡, ｢풀잎｣ -</CHAR>",
+                          "marginLeft": 0
+                        }
+                      }
+                    ],
+                    "decorations": [],
+                    "title": null,
+                    "borderTop": "solid #000000 1px",
+                    "borderBottom": "solid #000000 1px",
+                    "content": "<TEXT><CHAR size=\"15.6\">풀잎은</CHAR></TEXT><TEXT><CHAR size=\"15.6\">ⓐ</CHAR><CHAR size=\"15.6\"><UNDERLINE>퍽</UNDERLINE></CHAR><CHAR size=\"15.6\">도 아름다운 이름을 가졌어요.</CHAR></TEXT><TEXT><CHAR size=\"15.6\">우리가 ‘풀잎’하고 그를 부를 때는,</CHAR></TEXT><TEXT><CHAR size=\"15.6\">우리들의 입 속에서는 ㉠</CHAR><CHAR size=\"15.6\"><UNDERLINE>푸른 휘파람</UNDERLINE></CHAR><CHAR size=\"15.6\"> 소리가 나거든요.</CHAR></TEXT><TEXT><CHAR size=\"15.6\"> </CHAR></TEXT><TEXT><CHAR size=\"15.6\">바람이 부는 날의 풀잎들은</CHAR></TEXT><TEXT><CHAR size=\"15.6\">왜 저리 몸을 흔들까요.</CHAR></TEXT><TEXT><CHAR size=\"15.6\">소나기가 오는 날의 풀잎들은</CHAR></TEXT><TEXT><CHAR size=\"15.6\">왜 저리 또 몸을 통통거릴까요.</CHAR></TEXT><TEXT><CHAR size=\"15.6\"> </CHAR></TEXT><TEXT><CHAR size=\"15.6\">그러나 풀잎은</CHAR></TEXT><TEXT><CHAR size=\"15.6\">퍽도 아름다운 이름을 가졌어요.</CHAR></TEXT><TEXT><TABLE><ROW><CELL width=\"12\" height=\"11\" padding=\"\"/><CELL width=\"19\" height=\"11\" padding=\"\" borderbottom=\"solid #000000 1px\"/><CELL rowspan=\"5\" width=\"527\" height=\"87\" padding=\"\"><TEXT><CHAR size=\"15.6\">우리가 ‘풀잎’, ‘풀잎’ 하고 자꾸 부르면,</CHAR></TEXT><TEXT><CHAR size=\"15.6\">우리의 몸과 맘도 ⓑ</CHAR><CHAR size=\"15.6\"><UNDERLINE>어느덧</UNDERLINE></CHAR></TEXT><TEXT><CHAR size=\"15.6\">푸른 풀잎이 돼 버리거든요.</CHAR></TEXT></CELL></ROW><ROW><CELL width=\"12\" height=\"24\" padding=\"\" borderright=\"solid #000000 1px\"/><CELL width=\"19\" height=\"24\" padding=\"\" borderleft=\"solid #000000 1px\" bordertop=\"solid #000000 1px\"/></ROW><ROW><CELL colspan=\"2\" width=\"31\" height=\"14\" padding=\"\"><TEXT align=\"center\"><CHAR size=\"15.6\">[A]</CHAR></TEXT></CELL></ROW><ROW><CELL width=\"12\" height=\"26\" padding=\"\" borderright=\"solid #000000 1px\"/><CELL width=\"19\" height=\"26\" padding=\"\" borderleft=\"solid #000000 1px\" borderbottom=\"solid #000000 1px\"/></ROW><ROW><CELL width=\"12\" height=\"12\" padding=\"\"/><CELL width=\"19\" height=\"12\" padding=\"\" bordertop=\"solid #000000 1px\"/></ROW></TABLE></TEXT><TEXT/><TEXT><CHAR size=\"15.6\"> </CHAR></TEXT><TEXT align=\"right\">-<CHAR size=\"15.6\">박성룡, ｢풀잎｣ -</CHAR></TEXT>",
+                    "direction": null
+                  }
+                }
+              ],
+              "decorations": []
+            },
+            {
+              "align": null,
+              "marginLeft": 0.0,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\"/>",
+              "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": ""}}],
+              "decorations": []
+            }
+          ],
+          "textBoxes": []
+        },
+        "headerExplain": {
+          "texts": [
+            {
+              "align": null,
+              "marginLeft": 0.0,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\"> </CHAR>",
+              "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": " "}}],
+              "decorations": []
+            }
+          ],
+          "textBoxes": [],
+          "contentBlocks": []
+        },
+        "etc": {
+          "headerId": 373616,
+          "etcCd01": "",
+          "etcCd02": "05",
+          "etcCd03": "",
+          "etcCd04": "",
+          "etcCd05": "",
+          "etcCd06": "",
+          "etcCd07": "",
+          "etcCd08": "",
+          "etcCd09": "",
+          "etcCd10": "",
+          "etcTxt01": "풀잎",
+          "etcTxt02": "박성룡",
+          "etcTxt03": "",
+          "etcTxt04": "",
+          "etcTxt05": "",
+          "etcTxt06": "",
+          "etcTxt07": "",
+          "etcTxt08": "",
+          "etcTxt09": "",
+          "etcTxt10": ""
+        }
+      },
+      "problem": {
+        "problemId": 382219,
+        "typeCd": "50",
+        "choiceArray": "0",
+        "listen": "0",
+        "problemUsage": 2,
+        "frequency": "02",
+        "stateCd": "02",
+        "problemBookCd": 65,
+        "totalCount": 2,
+        "problemEtcCd01": "01",
+        "headerBookCd": 65,
+        "headerEtcCd01": "",
+        "headerEtcCd02": "05",
+        "headerEtcCd05": "",
+        "difficultCd": "03",
+        "analysisCd": 5077,
+        "studyTreeCd": 5083,
+        "elementCd": 0,
+        "folderCd01": 0,
+        "folderCd02": 0,
+        "folderCd03": 333,
+        "folderCd04": 487,
+        "question": {
+          "texts": [
+            {
+              "align": null,
+              "marginLeft": 0.0,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\">이 시의 화자로 알맞은 것은?</CHAR>",
+              "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "이 시의 화자로 알맞은 것은?"}}],
+              "decorations": []
+            }
+          ],
+          "textBoxes": []
+        },
+        "choice": {
+          "count": "5",
+          "array": "0",
+          "items": [
+            {
+              "num": 1,
+              "numChar": "①",
+              "texts": [
+                {
+                  "align": null,
+                  "marginLeft": 0.0,
+                  "marginRight": 0.0,
+                  "textIndent": 0.0,
+                  "content": "<CHAR size=\"15.6\">나</CHAR>",
+                  "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "나"}}],
+                  "decorations": []
+                }
+              ],
+              "textBoxes": null
+            },
+            {
+              "num": 2,
+              "numChar": "②",
+              "texts": [
+                {
+                  "align": null,
+                  "marginLeft": 0.0,
+                  "marginRight": 0.0,
+                  "textIndent": 0.0,
+                  "content": "<CHAR size=\"15.6\">너</CHAR>",
+                  "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "너"}}],
+                  "decorations": []
+                }
+              ],
+              "textBoxes": null
+            },
+            {
+              "num": 3,
+              "numChar": "③",
+              "texts": [
+                {
+                  "align": null,
+                  "marginLeft": 0.0,
+                  "marginRight": 0.0,
+                  "textIndent": 0.0,
+                  "content": "<CHAR size=\"15.6\">우리</CHAR>",
+                  "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "우리"}}],
+                  "decorations": []
+                }
+              ],
+              "textBoxes": null
+            },
+            {
+              "num": 4,
+              "numChar": "④",
+              "texts": [
+                {
+                  "align": null,
+                  "marginLeft": 0.0,
+                  "marginRight": 0.0,
+                  "textIndent": 0.0,
+                  "content": "<CHAR size=\"15.6\">이슬</CHAR>",
+                  "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "이슬"}}],
+                  "decorations": []
+                }
+              ],
+              "textBoxes": null
+            },
+            {
+              "num": 5,
+              "numChar": "⑤",
+              "texts": [
+                {
+                  "align": null,
+                  "marginLeft": 0.0,
+                  "marginRight": 0.0,
+                  "textIndent": 0.0,
+                  "content": "<CHAR size=\"15.6\">풀잎</CHAR>",
+                  "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "풀잎"}}],
+                  "decorations": []
+                }
+              ],
+              "textBoxes": null
+            }
+          ]
+        },
+        "etc": {
+          "problemId": 382219,
+          "etcCd01": "01",
+          "etcCd02": "Y",
+          "etcCd03": "",
+          "etcCd04": "",
+          "etcCd05": "",
+          "etcCd06": "",
+          "etcCd07": "",
+          "etcCd08": "",
+          "etcCd09": "",
+          "etcCd10": "",
+          "etcTxt01": "",
+          "etcTxt02": "",
+          "etcTxt03": "",
+          "etcTxt04": "",
+          "etcTxt05": "전체",
+          "etcTxt06": "조건 무",
+          "etcTxt07": "보기 무",
+          "etcTxt08": "",
+          "etcTxt09": "",
+          "etcTxt10": ""
+        }
+      },
+      "solution": {
+        "fileId": 382250,
+        "answer": {
+          "texts": [
+            {
+              "align": null,
+              "marginLeft": 0.0,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\">③</CHAR>",
+              "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": "③"}}],
+              "decorations": []
+            }
+          ],
+          "textBoxes": null,
+          "detail": [{"fileId": 382250, "answer": "③", "answer4latex": "", "chkcase": "N", "ignorespace": "N", "multiline": "N", "equation": "N", "legend": "", "keyboard": "00", "ord": 1, "index": 1}]
+        },
+        "explain": {
+          "texts": [
+            {
+              "align": null,
+              "marginLeft": 0.0,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\">이 시의 시적 화자는 ‘우리’이다. ‘우리’가 풀잎하고 그를 부를 때는 우리들 입 속에서 푸른 휘파람 소리가 나거든요.‘를 통해 시적 화자를 파악할 수 있다.</CHAR>",
+              "elements": [
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 15.6,
+                    "elements": [],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": "이 시의 시적 화자는 ‘우리’이다. ‘우리’가 풀잎하고 그를 부를 때는 우리들 입 속에서 푸른 휘파람 소리가 나거든요.‘를 통해 시적 화자를 파악할 수 있다."
+                  }
+                }
+              ],
+              "decorations": []
+            }
+          ],
+          "textBoxes": null,
+          "contentBlocks": null
+        },
+        "hint": {
+          "texts": [
+            {
+              "align": null,
+              "marginLeft": 0.0,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\"/>",
+              "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": ""}}],
+              "decorations": []
+            },
+            {
+              "align": null,
+              "marginLeft": 0.0,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\">①, ②, ④ 이 시에 드러나 있지 않은 대상이다. ⑤ 풀잎은 시적 화자가 관찰하고 있는 대상이다.</CHAR>",
+              "elements": [
+                {
+                  "char": {
+                    "backColor": null,
+                    "size": 15.6,
+                    "elements": [],
+                    "decorations": [],
+                    "foreColor": null,
+                    "content": "①, ②, ④ 이 시에 드러나 있지 않은 대상이다. ⑤ 풀잎은 시적 화자가 관찰하고 있는 대상이다."
+                  }
+                }
+              ],
+              "decorations": []
+            }
+          ],
+          "textBoxes": null,
+          "contentBlocks": null
+        },
+        "script": {
+          "texts": [
+            {
+              "align": null,
+              "marginLeft": 0.0,
+              "marginRight": 0.0,
+              "textIndent": 0.0,
+              "content": "<CHAR size=\"15.6\"> </CHAR>",
+              "elements": [{"char": {"backColor": null, "size": 15.6, "elements": [], "decorations": [], "foreColor": null, "content": " "}}],
+              "decorations": []
+            }
+          ],
+          "textBoxes": null,
+          "contentBlocks": null
+        }
+      }
+    }
+  }
+}

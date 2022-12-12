@@ -1,0 +1,112 @@
+### 문제풀이 시간 저장
+POST http://221.150.32.216:8080/api/log/time/question
+Authorization: Bearer accessToken
+Content-Type: application/json
+
+[
+  {
+    "questionKey": "111222333",
+    "time": 333444
+  },
+  {
+    "questionKey": "111222333",
+    "time": 333444
+  }
+]
+
+### 지문 읽기 시간 저장
+POST http://221.150.32.216:8080/api/log/time/text
+Authorization: Bearer accessToken
+Content-Type: application/json
+
+{
+  "textKey": "111222333",
+  "time": 333444
+}
+
+
+### 사용자별 현재 진행할 레슨정보 반환
+POST http://221.150.32.216:8080/api/lesson/current/user
+Authorization: Bearer accessToken
+
+
+### 사용자별 지식맵 반환
+GET http://221.150.32.216:8080/api/lesson/progress_map/user
+Authorization: Bearer accessToken
+
+
+### 답변
+POST http://221.150.32.216:8080/api/lesson/answer
+Authorization: Bearer accessToken
+Content-Type: application/json
+
+[
+  {
+    "questionKey": "1",
+    "correct": "1",
+    "userAnswer": "2",
+    "difficultyCode": "60",
+    "questionTypeCode": "90"
+  },
+  {
+    "questionKey": "2",
+    "correct": "3",
+    "userAnswer": "1",
+    "difficultyCode": "70",
+    "questionTypeCode": "100"
+  }
+]
+
+
+### 일별 결과보고서
+GET http://221.150.32.216:8080/api/result/daily
+Authorization: Bearer accessToken
+
+
+### 월별 결과보고서
+GET http://221.150.32.216:8080/api/result/monthly
+Authorization: Bearer accessToken
+
+
+### 진단평가 결과보고서
+GET http://221.150.32.216:8080/api/result/diagnostic
+Authorization: Bearer accessToken
+
+
+### 수능모의평가 결과보고서
+GET http://221.150.32.216:8080/api/result/sat
+Authorization: Bearer accessToken
+
+
+### AI 진단 결과보고서
+GET http://221.150.32.216:8080/api/result/ai
+Authorization: Bearer accessToken
+
+
+### 회원가입
+POST http://221.150.32.216:8080/api/user/register
+Content-Type: application/json
+
+{
+  "id": "id",
+  "pw": "pw",
+  "email": "test@gmail.com",
+  "name": "사용자"
+}
+
+### 로그인
+POST http://221.150.32.216:8080/api/user/login
+Content-Type: application/json
+
+{
+  "id": "id",
+  "pw": "pw"
+}
+
+### refresh token을 기반으로 access token을 반환
+POST http://221.150.32.216:8080/api/user/refresh
+Content-Type: application/json
+
+{
+  "token": "sadfdasfdsafdasfdsa"
+}

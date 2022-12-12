@@ -1,0 +1,114 @@
+* {
+  font-family: '바탕';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 180%;
+
+  min-width: 300px;
+  max-width: 800px;
+}
+/* span {
+  display: inline-block;
+  position: relative;
+  white-space: inherit;
+} */
+span.mmBox {
+  border: 0.4px solid #7e7e7e;
+  stroke-linecap: butt;
+  height: 30px;
+  font-size: 20px;
+}
+
+
+.body {
+  margin: 2px;
+}
+
+div.mmBox {
+  margin: 6px 0px 10px 0px;
+  padding: 6px 10px 10px 10px;
+  border: 0.4px solid black;
+  stroke-linecap: butt;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+p.mmBogey {
+}
+.mmBold {
+  font-weight: bold;
+  color: #271283;
+}
+
+/* .rec_box {
+  display: flex;
+  width: 20px;
+    height: 100px;
+  background: #675c97;
+}  */
+
+table.mmArea {
+  margin-left: 16px;
+  margin-bottom: 4px;
+  /* position: relative; */
+}
+td.mmArea {
+  width: 16px;
+  border-top: 1.4px solid;
+  border-bottom: 1.4px solid;
+  border-left: 1.4px solid;
+  /* border: 1px solid; */
+  position: relative;
+  /* background: green; */
+}
+div.mmAreaA {
+  /* margin: 10px 4px 10px 4px; */
+  /* height: 100%; */
+  /* position: relative; */
+  /* background: rgb(211, 184, 30); */
+
+  height: 24px;
+  /* background-color: #b35353; */
+}
+p.mmAreaA {
+  /* height: 40px; */
+  position: absolute;
+  /* font-weight: bold; */
+
+  left: -14px;
+  /* top:  24px; */
+  background-color: #ffffff;
+}
+.mmUnderline {
+  text-decoration: underline;
+}
+
+.mmRed {
+  color: #ff0000;
+}
+
+.mmImg {
+  max-width: 300px;
+  margin: 8px;
+  float: left;
+}
+.mmImgLeft {
+  float: left;
+}
+.mmImgRight {
+  float: right;
+}
+
+.mmAnswer {
+  visibility: visible;
+}
+
+//기본 텍스트
+p.mm {
+}
