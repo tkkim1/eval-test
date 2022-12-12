@@ -21,7 +21,7 @@
         <div class="row">
           <div class="col">
             <q-scroll-area style="height: 90vh; max-width: 50vw; padding: 30px">
-              <template v-bind:key="index" v-for="(exam, index) in exam_list">
+              <template v-bind:key="index" v-for="(exam, index) in exam.exam_list">
                 <div v-if="index === eIdx" v-html="exam.body"></div>
               </template>
             </q-scroll-area>
@@ -29,7 +29,7 @@
           <div class="bg-grey-4" style="width: 0.5rem"></div>
           <div class="col flex" style="padding: 30px">
             <div style="position: absolute">
-              <template v-bind:key="eIndex" v-for="(exam, eIndex) in exam_list">
+              <template v-bind:key="eIndex" v-for="(exam, eIndex) in exam.exam_list">
                 <template  v-bind:key="qIndex" v-for="(question, qIndex) in exam.questions">
                   <div v-if="eIndex === eIdx">
                     <div v-if="qIdx === 0 && qIndex === qIdx" v-html="exam.title"></div>
@@ -58,16 +58,19 @@
 import axios from "axios";
 import { isReactive, onMounted, reactive, ref } from "vue";
 import { GlobalStore } from "@/store";
+import { DialogStore } from '@/store/modules/dialog';
 import data from '@/json/questions/data.json';
 
 export default {
   name: "knowledgeMap",
   setup() {
-    let exam_list = reactive([]);
+    let exam = reactive({
+      exam_list: []
+    });
     let head = ref(null);
     let eIdx = ref(0);
     let qIdx = ref(0);
-    let value = ref(0);
+    let value = ref(0.1);
     let is_right = false;
     let submission = [];
     let final_result = [];
@@ -75,10 +78,11 @@ export default {
     let topic_num = 0;
     let kread = 1200;
     const globalStore = GlobalStore();
+    const alertStore = DialogStore();
     let user_name = globalStore.getUserInfo.name;
 
     const getExamElements = (data) => {
-
+      exam.exam_list = [];
       const parser = new DOMParser();
       const examList = parser.parseFromString(data, "text/html").documentElement.querySelectorAll(".exam");
       //헤더 css적용
@@ -98,7 +102,7 @@ export default {
           questions.push(element.innerHTML);
         });
 
-        exam_list.push({
+        exam.exam_list.push({
           title,
           body,
           questions
@@ -110,9 +114,11 @@ export default {
       e.preventDefault();
       e.stopPropagation();
 
-      
       // if(submission.length === 0) {
-      //   alert('정답을 선택해 주세요');
+      //   alertStore.openAlertDialog({
+      //     message: '정답을 선택해 주세요',
+      //     buttonText: '확인'
+      //   })
       //   return;
       // }
       
@@ -131,12 +137,12 @@ export default {
        * 지문, 문제 paging
        */
       //다음 문제
-      if(qIdx.value < exam_list[eIdx.value].questions.length - 1) {
+      if(qIdx.value < exam.exam_list[eIdx.value].questions.length - 1) {
         qIdx.value++;
       }else {
         //다음 지문
-        if(exam_list.length > 1) {
-          if(exam_list.length > eIdx.value + 1) {
+        if(exam.exam_list.length > 1) {
+          if(exam.exam_list.length > eIdx.value + 1) {
             eIdx.value++;
             qIdx.value = 0;
           }else {
@@ -144,6 +150,7 @@ export default {
               final_result = [...final_result, ...result];
               //kread 지수 계산
               calcKread();
+              value.value++;
               topic_num++;
               const topic = String(topic_num).padStart(2, '0');
               let url = data.find(v => v.topic === topic && v.grade === String(kread)).path;
@@ -160,9 +167,12 @@ export default {
       submission = [];
     }
 
-    const calcKread = (topic_num) => {
+    /**
+     * kread 점수 계산
+     */
+    const calcKread = () => {
       let rightNum = result.filter(v => v.is_right).length;
-      console.log(rightNum);
+
       if(topic_num === 0) {
         const grade = globalStore.userInfo.grade;
 
@@ -190,13 +200,20 @@ export default {
         }
       }else {
         if(rightNum >= 2) {
-          kread += 50;
+          if(kread < 1600) {
+            kread += 50;
+          }
         } else if(rightNum === 0) {
-          kread -= 50;
+          if(kread > 1200) {
+            kread -= 50;
+          }
         }
       }
     }
 
+    /**
+     * 숫자 특수문자 변환
+     */
     const changeNumber = (text) => {
       if(text.indexOf('⑤') > -1) {
         return 5;
@@ -211,6 +228,9 @@ export default {
       }
     }
 
+    /**
+     * 정오답 여부 체크
+     */
     const checkIsRight = () => {
       const answer = document.getElementsByClassName('answer');
       let answerArr = [];
@@ -234,7 +254,6 @@ export default {
     }
 
     onMounted(() => {
-      value = 0.2;
       let url = data.find(v => v.topic === '00' && v.grade === 'M' + globalStore.userInfo.grade).path; 
 
       axios
@@ -273,7 +292,7 @@ export default {
 
     return {
       //variables
-      exam_list,
+      exam,
       head,
       eIdx,
       qIdx,
@@ -288,7 +307,8 @@ export default {
       getExamElements,
       getNextQuestion,
       calcKread,
-      changeNumber
+      changeNumber,
+      checkIsRight
     };
   }
 };
@@ -314,14 +334,15 @@ export default {
   @include center-element;
 }
 
-.question > ::v-deep .item {
-  cursor: pointer;
-}
-
-.question > ::v-deep .active {
-  background-color: #e4e4e4;
-  padding: 0.1rem;
-  border-radius: 0.2rem;
+.question {
+  &:deep(.item) {
+    cursor: pointer;
+  }
+  &:deep(.active) {
+    background-color: #e4e4e4;
+    padding: 0.1rem;
+    border-radius: 0.2rem;
+  }
 }
 
 .footer {
