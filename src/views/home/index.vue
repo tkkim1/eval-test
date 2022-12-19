@@ -132,16 +132,18 @@ export default {
       // }
       
       //점수
-      const topicNo = String(topic_num.value).padStart(2, '0');
-      const findData = data.find(v => v.topic === topicNo);
-      result.push({
-        exam_nm: findData.exam_nm,
-        problem_id: 1,
-        submission: [...submission],
-        is_right: checkIsRight()
-      })
-      console.log(result);
-
+      if(!is_marking) {
+        const topicNo = String(topic_num.value).padStart(2, '0');
+        const findData = data.find(v => v.topic === topicNo);
+        result.push({
+          exam_nm: findData.exam_nm,
+          problem_id: 1,
+          submission: [...submission],
+          is_right: checkIsRight()
+        })
+        final_result = [...final_result, ...result];
+        console.log(result);
+      }
       /**
        * 지문, 문제 paging
        */
@@ -157,7 +159,6 @@ export default {
             qIdx.value = 0;
           }else {
             if(topic_num.value < 9) {
-              final_result = [...final_result, ...result];
               //kread 지수 계산
               calcKread();
               value.value = value.value + 0.1;
@@ -182,7 +183,9 @@ export default {
      * kread 점수 계산
      */
     const calcKread = () => {
-      let rightNum = result.filter(v => v.is_right).length;
+      const topicNo = String(topic_num.value).padStart(2, '0');
+      const findData = data.find(v => v.topic === topicNo);
+      let rightNum = final_result.filter(v => v.exam_nm === findData.exam_nm && v.is_right).length;
 
       if(topic_num.value === 0) {
         const grade = globalStore.userInfo.grade;
