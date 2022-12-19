@@ -1,0 +1,195 @@
+* {
+  font-family: "바탕";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+}
+/* 
+body {
+  font-size: 1rem;
+  line-height: 180%;
+
+  min-width : 300px;
+  max-width: 800px;
+} */
+/* span {
+  display: inline-block;
+  position: relative;
+  white-space: inherit;
+} */
+
+/* .body {
+  margin: 2px;
+} */
+
+/* 지문 상자 ************************************/
+div.mmBox {
+  margin: 6px 0px 10px 0px;
+  padding: 6px 10px 10px 10px;
+  border: 0.4px solid black;
+  stroke-linecap: butt;
+}
+
+/* 지문 안의 네모칸 */
+span.mmBox {
+  border: 0.4px solid #7e7e7e;
+  stroke-linecap: butt;
+  height: 30px;
+  font-size: 20px;
+}
+
+/* 지문 하단의 작은 글자 */
+p.mmTiny {
+  font-size: 12px;
+  /* height: 18px; */
+}
+
+/* 지문의 이미지 박스 - 가운데 정렬 *******************/
+div.mmBoxImg {
+  text-align: center;
+}
+/* 이미지 왼쪽 정렬 */
+.mmImgLeft {
+  float: left;
+}
+/* 이미지 오른쪽 정렬 */
+.mmImgRight {
+  float: right;
+}
+
+/* 지문 [a]영역 표시 **********************************/
+table.mmArea {
+  margin-left: 16px;
+  margin-bottom: 4px;
+  /* position: relative; */
+}
+/* 영역의 왼쪽 네모의 박스 */
+td.mmArea {
+  width: 16px;
+  border-top: 1.4px solid;
+  border-bottom: 1.4px solid;
+  border-left: 1.4px solid;
+  /* border: 1px solid; */
+  position: relative;
+  /* background: green; */
+}
+div.mmAreaA {
+  /* margin: 10px 4px 10px 4px; */
+  /* height: 100%; */
+  /* position: relative; */
+  /* background: rgb(211, 184, 30); */
+  height: 24px;
+  /* background-color: #b35353; */
+}
+/* 영역의 왼쪽 A부분 */
+p.mmAreaA {
+  /* height: 40px; */
+  position: absolute;
+  font-weight: bold;
+  /* font-weight: bold; */
+
+  left: -14px;
+  /* top:  24px; */
+  background-color: #ffffff;
+}
+
+/* 문제 안의 상자 **********************************/
+/* div.mmQuesBox:before{
+  content:'';
+  display: inline-block;
+  vertical-align: middle;
+  min-height:50px;
+} */
+div.mmQuesBox {
+  margin: 6px 0px 6px 0px;
+  padding: 10px 10px 10px 10px;
+  border: 0.4px solid black;
+  /* min-height:50px; */
+}
+
+/* 문제 안의 상자의 네모칸 */
+span.mmQuesBox {
+  border: 0.4px solid #7e7e7e;
+  font-size: 26px;
+  vertical-align: middle;
+}
+
+/* 보기 영역 *********/
+p.mmBogey {
+}
+/* 하단의 정답 **********/
+
+/* 일반적인 Table  */
+table.mmTa {
+  width: 100%;
+  border: 1px solid #444444;
+  border-collapse: collapse;
+}
+table.mmTa th {
+  border: 1px solid #444444;
+  padding: 10px;
+  background-color: #e2e2e2;
+  font-weight: bold;
+}
+table.mmTa td {
+  border: 1px solid #444444;
+  padding: 4px;
+  text-align: center;
+}
+
+/* table 2 */
+table.mmTa2 {
+  width: 360px;
+  /* width:70%;   */
+  margin: 0 15% 0 15%;
+  border: 1px solid #444444;
+  border-collapse: collapse;
+}
+table.mmTa2 > tr > td {
+  border: 1px solid #444444;
+  padding: 10px;
+  background-color: #e2e2e2;
+  font-weight: bold;
+}
+table.mmTa2 td {
+  width: 60px;
+  border: 1px solid #444444;
+  padding: 4px;
+  text-align: center;
+}
+table.mmTa2 div.diagonal {
+  width: 92px;
+  height: 0.1px;
+  background-color: rgb(34, 33, 32);
+  transform: rotate(32deg);
+  position: absolute;
+  left: -6px;
+  top: 24px;
+}
+
+/* 공통 굵게 **********************************/
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+/*  기본 텍스트 */
+p.mm {
+  line-height: 26px;
+}
+p.mmRight {
+  text-align: right;
+}
+.mmBold {
+  font-weight: bold;
+  color: #000000;
+}
+
+.mmUnderline {
+  text-decoration: underline;
+}
+
+.mmRed {
+  color: #ff0000;
+}

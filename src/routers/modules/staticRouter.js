@@ -5,7 +5,7 @@ import { RouteRecordRaw } from 'vue-router';
 export const staticRouter = [
     {
         path: '/',
-        redirect: '/learninghome',
+        redirect: '/home',
     },
     {
         path: '/login',
@@ -26,7 +26,7 @@ export const staticRouter = [
     // {
     // 	path: '/exam',
     // 	name: "exam",
-    // 	component: () => import("@/views/Exam/index.vue"),
+    // 	component: () => import("@/views/exam/index.vue"),
     // 	meta: {
     // 		title: "문제"
     // 	}
