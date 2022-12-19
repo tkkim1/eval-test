@@ -85,17 +85,18 @@ export default {
     let final_result = [];
     let result = [];
     let kread = 1200;
+    let problem_id = 1;
     let is_marking = false;
     const globalStore = GlobalStore();
     const alertStore = DialogStore();
     let user_name = globalStore.getUserInfo.name;
 
-    const getExamElements = (data) => {
+    const getExamElements = (str) => {
       exam.exam_list = [];
       const parser = new DOMParser();
-      const examList = parser.parseFromString(data, "text/html").documentElement.querySelectorAll(".exam");
+      const examList = parser.parseFromString(str, "text/html").documentElement.querySelectorAll(".exam");
       //헤더 css적용
-      head.value = parser.parseFromString(data, "text/html").documentElement.querySelector("head").innerHTML;
+      head.value = parser.parseFromString(str, "text/html").documentElement.querySelector("head").innerHTML;
       //body
       examList.forEach(val => {
 
@@ -107,7 +108,18 @@ export default {
         body = val.querySelector(".body").innerHTML;
         const arr = val.querySelectorAll(".question");
         
-        arr.forEach((element) => {
+        arr.forEach((element, index) => {
+          if(is_marking) {
+            const items = element.querySelectorAll(".item");
+            const examNm = data.find(v => v.topic === String(topic_num.value).padStart(2, '0')).exam_nm;
+            const submissions = final_result.find(v => v.exam_nm === examNm && v.problem_id === index+1).submission;
+
+            items.forEach((el, idx) => {
+              if(submissions.indexOf(idx+1) > -1) {
+                el.className = 'item active';
+              }
+            })
+          }
           questions.push(element.innerHTML);
         });
 
@@ -137,27 +149,30 @@ export default {
         const findData = data.find(v => v.topic === topicNo);
         result.push({
           exam_nm: findData.exam_nm,
-          problem_id: 1,
+          problem_id: problem_id,
           submission: [...submission],
           is_right: checkIsRight()
         })
         final_result = [...final_result, ...result];
         console.log(result);
       }
+      
       /**
        * 지문, 문제 paging
        */
       //다음 문제
-      
       if(qIdx.value < exam.exam_list[eIdx.value].questions.length - 1) {
         qIdx.value++;
+        problem_id++;
       }else {
         //다음 지문
         if(exam.exam_list.length > 0) {
           if(exam.exam_list.length > eIdx.value + 1) {
+            problem_id++;
             eIdx.value++;
             qIdx.value = 0;
           }else {
+            problem_id = 1;
             if(topic_num.value < 9) {
               //kread 지수 계산
               calcKread();
@@ -283,13 +298,24 @@ export default {
 
       final_result.push({
         exam_nm: findData.exam_nm,
-        problem_id: 1,
+        problem_id: problem_id,
         submission: [...submission],
         is_right: checkIsRight()
-      })
+      });
+
+      console.log(final_result);
 
       is_marking = true;
-      console.log(final_result);
+      eIdx.value = 0;
+      qIdx.value = 0;
+      topic_num.value = 0;
+      let url = data.find(v => v.exam_nm === final_result[0].exam_nm).path; 
+
+      axios
+        .get(`${process.env.VUE_APP_URL}` + url)
+        .then((res) => {
+            getExamElements(res.data);
+        });
     }
 
     const itemClickListener = (e) => {
