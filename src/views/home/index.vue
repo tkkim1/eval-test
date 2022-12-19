@@ -44,7 +44,7 @@
               
             </div>
             <div class="footer">
-              <div v-if="eIdx === 9 && qIdx === 2" style="display:flex; justify-content: center">
+              <div v-if="topic_num === 9 && qIdx === 2" style="display:flex; justify-content: center">
                 <q-btn
                   color="primary"
                   :size="md"
@@ -52,7 +52,7 @@
                   @click="submitScore"
                 />
               </div>
-              <div style="display:flex; justify-content: end">
+              <div v-if="topic_num !== 9 || qIdx !== 2" style="display:flex; justify-content: end">
                 <q-btn outline color="primary" icon="arrow_forward" @click="getNextQuestion"/>
               </div>
             </div>
@@ -80,12 +80,12 @@ export default {
     let eIdx = ref(0);
     let qIdx = ref(0);
     let value = ref(0.1);
-    let is_right = false;
+    let topic_num = ref(0);
     let submission = [];
     let final_result = [];
     let result = [];
-    let topic_num = ref(0);
     let kread = 1200;
+    let is_marking = false;
     const globalStore = GlobalStore();
     const alertStore = DialogStore();
     let user_name = globalStore.getUserInfo.name;
@@ -273,6 +273,7 @@ export default {
       //   })
       //   return;
       // }
+      window.removeEventListener('click', itemClickListener);
 
       const topicNo = String(topic_num.value).padStart(2, '0');
       const findData = data.find(v => v.topic === topicNo);
@@ -283,7 +284,36 @@ export default {
         submission: [...submission],
         is_right: checkIsRight()
       })
+
+      is_marking = true;
       console.log(final_result);
+    }
+
+    const itemClickListener = (e) => {
+      e.path.map(el => {
+        //다중 선택 방지  
+        var elements = document.querySelectorAll('.active');
+
+        if(elements && elements.length > 1) {
+          elements.forEach(data => {
+            if(data.innerText.indexOf(e.target.innerText) < 0) {
+              data.classList.remove('active');
+              submission.shift();
+            }
+          })
+        }
+        //정답 클릭 이벤트
+        if(el.className?.indexOf('item') > -1) {
+          el.classList.toggle('active');
+          if (el.className.indexOf('active') < 0) {
+            const remove = changeNumber(e.target.innerText);
+            const idx = submission.indexOf(remove);
+            submission.splice(idx, 1);
+          }else {
+            submission.push(changeNumber(el.innerText));
+          }
+        }
+      })
     }
 
     onMounted(() => {
@@ -291,36 +321,9 @@ export default {
 
       axios
         .get(`${process.env.VUE_APP_URL}` + url)
-        // .get(`${process.env.VUE_APP_URL}` + '/assets/questions/01/1300.html')
         .then((res) => {
             getExamElements(res.data);
-            window.addEventListener('click', function(e) {
-             
-              e.path.map(el => {
-                //다중 선택 방지  
-                var elements = document.querySelectorAll('.active');
-
-                if(elements && elements.length > 1) {
-                  elements.forEach(data => {
-                    if(data.innerText.indexOf(e.target.innerText) < 0) {
-                      data.classList.remove('active');
-                      submission.shift();
-                    }
-                  })
-                }
-                //정답 클릭 이벤트
-                if(el.className?.indexOf('item') > -1) {
-                  el.classList.toggle('active');
-                  if (el.className.indexOf('active') < 0) {
-                    const remove = changeNumber(e.target.innerText);
-                    const idx = submission.indexOf(remove);
-                    submission.splice(idx, 1);
-                  }else {
-                    submission.push(changeNumber(el.innerText));
-                  }
-                }
-              })
-            })
+            window.addEventListener('click', itemClickListener)
         });
     })
 
@@ -331,19 +334,20 @@ export default {
       eIdx,
       qIdx,
       value,
-      result,
-      is_right,
-      submission,
       topic_num,
+      result,
+      submission,
       kread,
       user_name,
+      is_marking,
       //function
       getExamElements,
       getNextQuestion,
       calcKread,
       changeNumber,
       checkIsRight,
-      submitScore
+      submitScore,
+      itemClickListener
     };
   }
 };
