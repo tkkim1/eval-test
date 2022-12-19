@@ -34,7 +34,7 @@ export default {
   },
   mounted() {
     const parser = new DOMParser();
-    this.foo = axios.get(`${process.env.VUE_APP_DS_URL}/assets/questions/00_poetry/M1.html`).then(res => {this.foo = res.data; console.log(parser.parseFromString(res.data, 'text/html'));});
+    this.foo = axios.get(`${process.env.VUE_APP_URL}/assets/questions/00_poetry/M1.html`).then(res => {this.foo = res.data; console.log(parser.parseFromString(res.data, 'text/html'));});
   }
 }
 </script>
