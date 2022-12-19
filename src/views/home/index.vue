@@ -80,11 +80,10 @@ export default {
     let eIdx = ref(0);
     let qIdx = ref(0);
     let value = ref(0.1);
-    let is_right = false;
+    let topic_num = ref(0);
     let submission = [];
     let final_result = [];
     let result = [];
-    let topic_num = ref(0);
     let kread = 1200;
     let is_marking = false;
     const globalStore = GlobalStore();
@@ -335,10 +334,9 @@ export default {
       eIdx,
       qIdx,
       value,
-      result,
-      is_right,
-      submission,
       topic_num,
+      result,
+      submission,
       kread,
       user_name,
       is_marking,
