@@ -98,7 +98,7 @@ export default {
       //헤더 css적용
       head.value = parser.parseFromString(str, "text/html").documentElement.querySelector("head").innerHTML;
       //body
-      examList.forEach(val => {
+      examList.forEach((val, eIndex) => {
 
         let title = '';
         let body = '';
@@ -107,12 +107,13 @@ export default {
         title = val.querySelector(".title").innerHTML;
         body = val.querySelector(".body").innerHTML;
         const arr = val.querySelectorAll(".question");
-        
+
         arr.forEach((element, index) => {
           if(is_marking) {
+            element.querySelector(".comment").className = 'comment-active';
             const items = element.querySelectorAll(".item");
             const examNm = data.find(v => v.topic === String(topic_num.value).padStart(2, '0')).exam_nm;
-            const submissions = final_result.find(v => v.exam_nm === examNm && v.problem_id === index+1).submission;
+            const submissions = final_result.find(v => v.exam_nm === examNm && v.problem_id === eIndex * examList.length + index + 1).submission;
 
             items.forEach((el, idx) => {
               if(submissions.indexOf(idx+1) > -1) {
