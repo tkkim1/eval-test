@@ -1,6 +1,6 @@
 <template>
     <section class="modal__wrap">
-        <div class="modal" :style="props?.width ? 'width:' + props?.width : 'width:90%'">
+        <div class="modal" :style="props?.width ? 'width:' + props?.width : 'width:90%'" style="display: flex; align-items:center;">
             <slot></slot>
             <button v-if="showClose" class="btn__close" type="button" @keydown.enter="closeModal($event)"
                 @click="closeModal($event)">
