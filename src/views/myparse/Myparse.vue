@@ -3,7 +3,8 @@
     <input type="text" :value="sample" @change="onChange" />
     <button @click="onDelete">delete</button><br />
     <button @click="funStartParsing" h>myClick</button><br />
-    <button @click="cut">cut</button><br />
+    <button @click="ttt">ttt</button><br />
+    <p>{{ aaa }}</p>
     <textarea
       name="contents"
       id="mytext"
@@ -30,17 +31,98 @@
 </template>
 
 <script setup>
-  import {def} from '@vue/shared'
+  // import {def} from '@vue/shared'
   import {ref} from 'vue'
-  import sourceHtml from './contents.js'
+  // import sourceHtml from './contents.js'
 
   let sample = ref('sample')
   let testStr = ref('<h1 style="background-color:skyblue">testStr</h1>')
   let exam = ref('<h1>aa</h1>')
   let contents = ref()
 
-  let aaa = 'wholeText'
-  let pppp = ''
+  let aaa = ref('aaa')
+  // let pppp = ''
+
+  ///////////////////////////
+ 
+
+  // const tt2 = () => {
+  //   let filteredFeatureAlist = []
+  //   const list = [
+  //     {id: 1, position: 'front', name: '준현'},
+  //     {id: 2, position: 'front', name: '태경님'},
+  //     {id: 3, position: 'front', name: '순홍'},
+  //     {id: 4, position: 'back', name: '민중'},
+  //     {id: 5, position: 'back', name: '홍길동'},
+  //     {id: 6, position: 'back', name: '임재운'},
+  //     {id: 7, position: 'back', name: '아무개'},
+  //     {id: 8, position: 'back', name: 'ㅋㅋㅋ'},
+  //     {id: 9, position: 'designer', name: '문주'},
+  //     {id: 9, position: 'designer', name: '디자이너'},
+  //   ]
+  //   list.map(item => {
+  //     const existList = list.find(group => group.position === item.position)
+  //     if (existList) {
+  //       filteredFeatureAlist.children.push(item)
+  //       return
+  //     }
+  //     filteredFeatureAlist.push({groupName: item.position, children: [item]})
+  //   })
+  //   console.log('filteredFeatureAlist', filteredFeatureAlist)
+  // }
+  // tt2()
+
+  const ttt = () => {
+    const list = [
+      {id: 1, position: 'front', name: '준현'},
+      {id: 2, position: 'front', name: '태경님'},
+      {id: 3, position: 'front', name: '순홍'},
+      {id: 4, position: 'back', name: '민중'},
+      {id: 5, position: 'back', name: '홍길동'},
+      {id: 6, position: 'back', name: '임재운'},
+      {id: 7, position: 'back', name: '아무개'},
+      {id: 8, position: 'back', name: 'ㅋㅋㅋ'},
+      {id: 9, position: 'designer', name: '문주'},
+      {id: 9, position: 'designer', name: '디자이너'},
+    ]
+    const frontArr = []
+    const backArr = []
+    const designerArr = []
+
+    for (let i in list) {
+      switch (list[i].position) {
+        case 'front':
+          frontArr.push({id: list[i].id, name: list[i].name})
+          break
+        case 'back':
+          backArr.push({id: list[i].id, name: list[i].name})
+          break
+        case 'designer':
+          designerArr.push({id: list[i].id, name: list[i].name})
+          break
+        default:
+          break
+      }
+    }
+    const result = [
+      {
+        position: 'front',
+        children: frontArr,
+      },
+      {
+        position: 'back',
+        children: backArr,
+      },
+      {
+        position: 'designer',
+        children: designerArr,
+      },
+    ]
+    console.log(result)
+  }
+
+  ///////////////////////////
+
   const funStartParsing = async () => {
     console.log('----start----!!!!!!!!!!!!!!!!!!!!!!')
     let ddd = new DOMParser()

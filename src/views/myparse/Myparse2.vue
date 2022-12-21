@@ -28,7 +28,7 @@
 
 <script setup>
   import {ref} from 'vue'
-  import sourceHtml from './testhtml/myCustom.html'
+  // import sourceHtml from './testhtml/myCustom.html'
   //   import sourceHtml from './contents.js'
 
   let sample = ref('sample')
