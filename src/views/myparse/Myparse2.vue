@@ -32,7 +32,7 @@
   // import sourceHtml from './testhtml/myCustom.html'
   //   import sourceHtml from './contents.js'
 
-  console.log('testLog')
+  console.log('testLog2')
 
   let sample = ref('sample')
   let exam = ref('<h1>aa</h1>')
