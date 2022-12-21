@@ -31,6 +31,8 @@
   import sourceHtml from './testhtml/myCustom.html'
   //   import sourceHtml from './contents.js'
 
+  console.log('testLog')
+
   let sample = ref('sample')
   let exam = ref('<h1>aa</h1>')
   let contents = ref()
