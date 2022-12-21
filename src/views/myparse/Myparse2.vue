@@ -3,6 +3,7 @@
     <h1>파싱2</h1>
     <!-- <input type="text" :value="sample" @change="onChange" /> -->
     <button @click="funStartParsing">myClick</button><br />
+    
     <textarea
       name="contents"
       id="mytext"
@@ -28,7 +29,7 @@
 
 <script setup>
   import {ref} from 'vue'
-  import sourceHtml from './testhtml/myCustom.html'
+  // import sourceHtml from './testhtml/myCustom.html'
   //   import sourceHtml from './contents.js'
 
   console.log('testLog')
