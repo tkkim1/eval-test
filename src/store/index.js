@@ -10,13 +10,13 @@ export const GlobalStore = defineStore({
         // token
         token: '',
         retoken: '',
-        // userInfo
+        version: '',
         userInfo: '',
     }),
     getters: {
         getUserInfo(state) {
             return state.userInfo;
-        }
+        },
     },
     actions: {
         // setToken
@@ -25,6 +25,9 @@ export const GlobalStore = defineStore({
         },
         setReToken(token) {
             this.retoken = token;
+        },
+        setVersion(version) {
+            this.version = version;
         },
         // setUserInfo
         setUserInfo(userInfo) {

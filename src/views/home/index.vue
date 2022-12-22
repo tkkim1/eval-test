@@ -78,9 +78,6 @@
   </q-layout>
   <modal-layer v-if="show_modal" width="30rem">
     <div style="width: 100%; height:100%;">
-      <div style="width: 100%;  display: flex; justify-content: center;">
-        <div class="text-h5">{{ time }}</div><br />
-      </div>
       <div style="width: 100%;  display: flex; justify-content: center; padding: 2rem;">
         <img src="@/assets/images/logo.png"/>
       </div>
@@ -107,7 +104,7 @@ import { GlobalStore } from "@/store";
 import { DialogStore } from "@/store/modules/dialog";
 import data from "@/json/questions/data.json";
 import modalLayer from '@/components/layouts/layer/modalLayer';
-import { time } from "@amcharts/amcharts5";
+import { submitExam } from '@/api/modules/exam';
 
 let exam = reactive({
   exam_list: [],
@@ -216,7 +213,7 @@ const getNextQuestion = (e) => {
     result.push({
       exam_nm: findData.exam_nm,
       problem_id: problem_id,
-      submission: [...submission],
+      submission: [...submission].join(','),
       is_right: checkIsRight(),
     });
     final_result = [...final_result, ...result];
@@ -347,7 +344,7 @@ const checkIsRight = () => {
   return flag;
 };
 
-const submitScore = () => {
+const submitScore = async () => {
   // if(submission.length === 0) {
   //   alertStore.openAlertDialog({
   //     message: '정답을 선택해 주세요',
@@ -366,28 +363,31 @@ const submitScore = () => {
   final_result.push({
     exam_nm: findData.exam_nm,
     problem_id: problem_id,
-    submission: [...submission],
+    submission: [...submission].join(','),
     is_right: checkIsRight(),
   });
 
   const payload = {
-    kread_score: kread,
+    kread_score: kread.value,
     time: timer,
-    version: '1.00.01',
+    version: globalStore.version,
     result: final_result
   };
 
-  console.log(payload)
+console.log(payload)
 
-  is_marking.value = true;
-  eIdx.value = 0;
-  qIdx.value = 0;
-  topic_num.value = 0;
-  let url = data.find((v) => v.exam_nm === final_result[0].exam_nm).path;
+  const res = await submitExam(payload);
+  if(res) {
+    is_marking.value = true;
+    eIdx.value = 0;
+    qIdx.value = 0;
+    topic_num.value = 0;
+    let url = data.find((v) => v.exam_nm === final_result[0].exam_nm).path;
 
-  axios.get(`${process.env.VUE_APP_URL}` + url).then((res) => {
-    getExamElements(res.data);
-  });
+    axios.get(`${process.env.VUE_APP_URL}` + url).then((res) => {
+      getExamElements(res.data);
+    });
+  }
 };
 
 const itemClickListener = (e) => {
