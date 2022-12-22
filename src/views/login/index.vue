@@ -57,14 +57,14 @@
             />
           </div>
           <div>
-            <p class="header-label">학교</p>
+            <p class="header-label">이메일</p>
             <q-input
               bg-color="white"
               outlined
-              v-model="school"
+              v-model="email"
               :dense="dense"
               lazy-rules
-              :rules="[(val) => (val && val.length > 0) || '학교를 입력해 주세요.']"
+              :rules="[(val) => (val && val.length > 0) || '이메일을 입력해 주세요.']"
             />
           </div>
           <div>
@@ -107,81 +107,76 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import { useQuasar } from "quasar";
 import { ref } from "vue";
 import { GlobalStore } from "@/store";
 import { useRouter } from "vue-router";
+import { loginApi } from "@/api/modules/login";
 
-export default {
-  name: "login",
-  setup() {
-    const $q = useQuasar();
-    const router = useRouter();
+const $q = useQuasar();
+const router = useRouter();
 
-    const name = ref("");
-    const school = ref("");
-    const grade = ref("");
-    const phoneNumber = ref("");
-    const loginFormRef = ref(null);
+const name = ref("");
+const email = ref("");
+const grade = ref("");
+const phoneNumber = ref("");
+const loginFormRef = ref(null);
 
-    const options = [
-      {
-        value: 1,
-        label: "예비초-중1",
-      },
-      {
-        value: 2,
-        label: "중2",
-      },
-      {
-        value: 3,
-        label: "중3",
-      },
-    ];
+const options = [
+  {
+    value: 1,
+    label: "예비초-중1",
+  },
+  {
+    value: 2,
+    label: "중2",
+  },
+  {
+    value: 3,
+    label: "중3",
+  },
+];
 
-    const onSubmit = () => {
-      console.log(grade);
-      loginFormRef.value.validate().then((success) => {
-        if (success) {
+const onSubmit = () => {
+  console.log(grade);
+
+  loginFormRef.value.validate().then((success) => {
+    if (success) {
+      const saveCallback = async (data) => {
+        if (data) {
           const globalStore = GlobalStore();
 
           globalStore.setUserInfo({
             name: name.value,
-            school: school.value,
+            email: email.value,
             grade: grade.value.value,
             phoneNumber: phoneNumber.value,
           });
           router.push("/");
-        } else {
-          $q.notify({
-            color: "red-4",
-            textColor: "white",
-            icon: "cloud_done",
-            message: "모든 항목을 입력해 주세요.",
-          });
         }
+      };
+      loginApi(
+        {
+          stdnt_nm: name.value,
+          email: email.value,
+          phone_no: phoneNumber.value,
+        },
+        saveCallback
+      );
+    } else {
+      $q.notify({
+        color: "red-4",
+        textColor: "white",
+        icon: "cloud_done",
+        message: "모든 항목을 입력해 주세요.",
       });
-    };
-
-    return {
-      //variables
-      name,
-      school,
-      grade,
-      phoneNumber,
-      loginFormRef,
-      options,
-      //functions
-      onSubmit,
-    };
-  },
+    }
+  });
 };
 </script>
 
 <style scoped lang="scss">
-@import "./index.scss";
-
 .center {
   justify-content: center;
   align-items: center;

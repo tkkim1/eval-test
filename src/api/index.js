@@ -17,7 +17,7 @@ const processQueue = (error, token = null) => {
 const service = axios.create({
     // withCredentials: true,
     // timeout: 1000 * 60 * 30 // TimeOut 30분으로 설정
-    // baseURL: process.env.VUE_APP_API_URL,
+    baseURL: '/',
 });
 
 service.interceptors.request.use(
@@ -112,4 +112,31 @@ service.interceptors.response.use(
         console.error(error?.response);
     },
 );
+
+// instance.interceptors.response.use(
+//     function (response) {
+//         response.headers['Access-Control-Allow-Origin'] = '*';
+//         return response.data;
+//     },
+//     function () {
+//         // if (Object.keys(error).indexOf('response') > -1 && Object.keys(error.response).indexOf('status') > -1) {
+//         //   if (error.response.status === 401){
+//         //     VueCookies.remove('Authorization')
+//         //     if (window.location.pathname !== '/aitag/mng/login') {
+//         //       window.location.href = "/aitag/mng/login";
+//         //     }
+//         //   }else if (error.response.status !== 400 && !(error.response.status === 405 && window.location.pathname === '/aitag/mng/keyword/standardKeywordManagement')){
+//         //     if ((window.location.pathname === '/aitag/mng/keyword/keywordDictionary'
+//         //     || window.location.pathname === '/aitag/mng/settings/learningEngine')
+//         //     && error.response.status === 404) {
+//         //       return;
+//         //     }
+//         //     window.location.href = `/aitag/mng/error/${error.response.status}`;
+//         //   }
+//         // } else {
+//         //   window.location.href = `/aitag/mng/error`;
+//         // } // status 없는 network error 처리
+//         // return Promise.reject(error)
+//     }, //api response error 처리
+// );
 export default service;
