@@ -49,7 +49,7 @@
             </div>
             <div class="footer">
               <div
-                v-if="topic_num === 9 && qIdx === 2"
+                v-if="topic_num === 9 && qIdx === 2 && !is_marking"
                 style="display: flex; justify-content: center"
               >
                 <q-btn
@@ -107,6 +107,7 @@ import { GlobalStore } from "@/store";
 import { DialogStore } from "@/store/modules/dialog";
 import data from "@/json/questions/data.json";
 import modalLayer from '@/components/layouts/layer/modalLayer';
+import { time } from "@amcharts/amcharts5";
 
 let exam = reactive({
   exam_list: [],
@@ -124,6 +125,8 @@ let submission = [];
 let final_result = [];
 let result = [];
 let problem_id = 1;
+let interval = null;
+var timer = 0;
 
 const globalStore = GlobalStore();
 const alertStore = DialogStore();
@@ -165,7 +168,6 @@ const getExamElements = (str) => {
 
         items.forEach((el, idx) => {
           if (submissions.indexOf(idx + 1) > -1) {
-            console.log(answer);
             if(answer === idx + 1) {
               el.className = "item-correct";
               is_correct = true;
@@ -218,7 +220,6 @@ const getNextQuestion = (e) => {
       is_right: checkIsRight(),
     });
     final_result = [...final_result, ...result];
-    console.log(result);
   }
 
   /**
@@ -354,6 +355,7 @@ const submitScore = () => {
   //   })
   //   return;
   // }
+  clearInterval(interval);
   show_modal.value = true;
   right_conut.value = final_result.filter(v => v.is_right).length;
   window.removeEventListener("click", itemClickListener);
@@ -368,7 +370,14 @@ const submitScore = () => {
     is_right: checkIsRight(),
   });
 
-  console.log(final_result);
+  const payload = {
+    kread_score: kread,
+    time: timer,
+    version: '1.00.01',
+    result: final_result
+  };
+
+  console.log(payload)
 
   is_marking.value = true;
   eIdx.value = 0;
@@ -420,6 +429,9 @@ onMounted(() => {
   axios.get(`${process.env.VUE_APP_URL}` + url).then((res) => {
     getExamElements(res.data);
     window.addEventListener("click", itemClickListener);
+    interval = setInterval(() => {
+      timer++;
+    }, 1000);
   });
 });
 </script>
