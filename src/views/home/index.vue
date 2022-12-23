@@ -123,7 +123,8 @@ let final_result = [];
 let result = [];
 let problem_id = 1;
 let interval = null;
-var timer = 0;
+let timer = 0;
+let exam_nm = '';
 
 const globalStore = GlobalStore();
 const alertStore = DialogStore();
@@ -155,12 +156,10 @@ const getExamElements = (str) => {
         element.querySelector(".comment").className = "comment-active";
         const items = element.querySelectorAll(".item");
         const answer = changeNumber(element.querySelector(".answer").innerText);
-        const examNm = data.find(
-          (v) => v.topic === String(topic_num.value).padStart(2, "0")
-        ).exam_nm;
+
         const submissions = final_result.find(
           (v) =>
-            v.exam_nm === examNm && v.problem_id === eIndex * examList.length + index + 1
+            v.exam_nm === exam_nm && v.problem_id === eIndex * examList.length + index + 1
         ).submission;
 
         items.forEach((el, idx) => {
@@ -208,12 +207,11 @@ const getNextQuestion = (e) => {
 
   //점수
   if (!is_marking.value) {
-    const topicNo = String(topic_num.value).padStart(2, "0");
-    const findData = data.find((v) => v.topic === topicNo);
+    
     result.push({
-      exam_nm: findData.exam_nm,
+      exam_nm: exam_nm,
       problem_id: problem_id,
-      submission: [...submission].join(','),
+      submission: [...submission],
       is_right: checkIsRight(),
     });
     final_result = [...final_result, ...result];
@@ -241,7 +239,9 @@ const getNextQuestion = (e) => {
           value.value = value.value + 0.1;
           topic_num.value++;
           const topic = String(topic_num.value).padStart(2, "0");
-          let url = data.find((v) => v.topic === topic && v.grade === String(kread.value)).path;
+          const res = data.find((v) => v.topic === topic && v.grade === String(kread.value));
+          let url = res.path;
+          exam_nm = res.exam_nm;
           axios.get(`${process.env.VUE_APP_URL}` + url).then((res) => {
             eIdx.value = 0;
             qIdx.value = 0;
@@ -260,7 +260,7 @@ const getNextQuestion = (e) => {
  */
 const calcKread = () => {
   const topicNo = String(topic_num.value).padStart(2, "0");
-  const findData = data.find((v) => v.topic === topicNo);
+  const findData = data.find((v) => v.topic === topicNo && v.exam_nm === exam_nm);
   let rightNum = final_result.filter((v) => v.exam_nm === findData.exam_nm && v.is_right)
     .length;
 
@@ -353,19 +353,21 @@ const submitScore = async () => {
   //   return;
   // }
   clearInterval(interval);
-  show_modal.value = true;
-  right_conut.value = final_result.filter(v => v.is_right).length;
   window.removeEventListener("click", itemClickListener);
 
-  const topicNo = String(topic_num.value).padStart(2, "0");
-  const findData = data.find((v) => v.topic === topicNo);
-
   final_result.push({
-    exam_nm: findData.exam_nm,
+    exam_nm: exam_nm,
     problem_id: problem_id,
-    submission: [...submission].join(','),
+    submission: [...submission],
     is_right: checkIsRight(),
   });
+
+  final_result.map(v => {
+    v.submission = v.submission.join(',')
+  })
+
+  show_modal.value = true;
+  right_conut.value = final_result.filter(v => v.is_right).length;
 
   const payload = {
     kread_score: kread.value,
@@ -376,18 +378,28 @@ const submitScore = async () => {
 
 console.log(payload)
 
-  const res = await submitExam(payload);
-  if(res) {
-    is_marking.value = true;
+  // const res = await submitExam(payload);
+  // if(res) {
+  //   is_marking.value = true;
+  //   eIdx.value = 0;
+  //   qIdx.value = 0;
+  //   topic_num.value = 0;
+  //   let url = data.find((v) => v.exam_nm === final_result[0].exam_nm).path;
+
+  //   axios.get(`${process.env.VUE_APP_URL}` + url).then((res) => {
+  //     getExamElements(res.data);
+  //   });
+  // }
+  is_marking.value = true;
     eIdx.value = 0;
     qIdx.value = 0;
     topic_num.value = 0;
     let url = data.find((v) => v.exam_nm === final_result[0].exam_nm).path;
+    exam_nm = data.find((v) => v.exam_nm === final_result[0].exam_nm).exam_nm;
 
     axios.get(`${process.env.VUE_APP_URL}` + url).then((res) => {
       getExamElements(res.data);
     });
-  }
 };
 
 const itemClickListener = (e) => {
@@ -425,6 +437,9 @@ onMounted(() => {
   let url = data.find(
     (v) => v.topic === "00" && v.grade === "M" + globalStore.userInfo.grade
   ).path;
+  exam_nm = data.find(
+    (v) => v.topic === "00" && v.grade === "M" + globalStore.userInfo.grade
+  ).exam_nm;
 
   axios.get(`${process.env.VUE_APP_URL}` + url).then((res) => {
     getExamElements(res.data);
