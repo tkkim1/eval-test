@@ -239,6 +239,7 @@ const getNextQuestion = (e) => {
           value.value = value.value + 0.1;
           topic_num.value++;
           const topic = String(topic_num.value).padStart(2, "0");
+
           const res = data.find((v) => v.topic === topic && v.grade === String(kread.value));
           let url = res.path;
           exam_nm = res.exam_nm;
@@ -376,21 +377,11 @@ const submitScore = async () => {
     result: final_result
   };
 
-console.log(payload)
+  console.log(payload)
 
-  // const res = await submitExam(payload);
-  // if(res) {
-  //   is_marking.value = true;
-  //   eIdx.value = 0;
-  //   qIdx.value = 0;
-  //   topic_num.value = 0;
-  //   let url = data.find((v) => v.exam_nm === final_result[0].exam_nm).path;
-
-  //   axios.get(`${process.env.VUE_APP_URL}` + url).then((res) => {
-  //     getExamElements(res.data);
-  //   });
-  // }
-  is_marking.value = true;
+  const res = await submitExam(payload);
+  if(res) {
+    is_marking.value = true;
     eIdx.value = 0;
     qIdx.value = 0;
     topic_num.value = 0;
@@ -399,7 +390,9 @@ console.log(payload)
 
     axios.get(`${process.env.VUE_APP_URL}` + url).then((res) => {
       getExamElements(res.data);
-    });
+    }); 
+  }
+  
 };
 
 const itemClickListener = (e) => {
