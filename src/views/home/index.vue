@@ -243,14 +243,14 @@ const getNextQuestion = (e) => {
           calcKread();
           value.value = value.value + 0.1;
           topic_num.value++;
+          eIdx.value = 0;
+          qIdx.value = 0;
           const topic = String(topic_num.value).padStart(2, "0");
 
           const res = data.find((v) => v.topic === topic && v.grade === String(kread.value));
           let url = res.path;
           exam_nm = res.exam_nm;
           axios.get(`${process.env.VUE_APP_URL}` + url).then((res) => {
-            eIdx.value = 0;
-            qIdx.value = 0;
             getExamElements(res.data);
           });
         }
@@ -261,6 +261,7 @@ const getNextQuestion = (e) => {
     const offset = el.offsetTop;
     setVerticalScrollPosition(getScrollTarget(scrollEl), offset, 0);
   }
+  
   submission = [];
   result = [];
 };
