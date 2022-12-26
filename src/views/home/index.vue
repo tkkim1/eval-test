@@ -8,8 +8,12 @@
           <div style="flex: 0.6; display: inline-flex; align-items: center">
             <q-linear-progress stripe rounded size="16px" :value="value" color="grey-7" />
           </div>
+          <span class="q-ml-md"> {{topic_num + 1}} / 10</span>
         </div>
         <div class="col text-right">
+          <span class="q-mr-md">
+            현재 크리드 점수 : {{ kread }}
+          </span>
           <q-chip>
             {{ user_name }}
           </q-chip>
@@ -20,7 +24,7 @@
       <q-page class="q-px-md">
         <div class="row">
           <div class="col">
-            <q-scroll-area style="height: 90vh; max-width: 50vw; padding: 30px">
+            <q-scroll-area id="scroll" style="height: 90vh; max-width: 50vw; padding: 30px">
               <template v-bind:key="index" v-for="(exam, index) in exam.exam_list">
                 <div v-if="index === eIdx" v-html="exam.body"></div>
               </template>
@@ -93,7 +97,6 @@
         <q-btn rounded label="닫기" color="primary" size="lg" style="width: 200px" :onclick="closePopup" />
       </div>
     </div>
-    
   </modal-layer>
 </template>
 
@@ -105,6 +108,7 @@ import { DialogStore } from "@/store/modules/dialog";
 import data from "@/json/questions/data.json";
 import modalLayer from '@/components/layouts/layer/modalLayer';
 import { submitExam } from '@/api/modules/exam';
+import { scroll } from 'quasar';
 
 let exam = reactive({
   exam_list: [],
@@ -128,6 +132,7 @@ let exam_nm = '';
 
 const globalStore = GlobalStore();
 const alertStore = DialogStore();
+const { setVerticalScrollPosition, getVerticalScrollPosition, getScrollTarget } = scroll;
 let user_name = globalStore.getUserInfo.name;
 
 const getExamElements = (str) => {
@@ -251,6 +256,10 @@ const getNextQuestion = (e) => {
         }
       }
     }
+    const el = document.getElementById('scroll');
+    const scrollEl = el.getElementsByClassName('scroll')[0];
+    const offset = el.offsetTop;
+    setVerticalScrollPosition(getScrollTarget(scrollEl), offset, 0);
   }
   submission = [];
   result = [];
@@ -377,7 +386,7 @@ const submitScore = async () => {
     result: final_result
   };
 
-  console.log(payload)
+  console.log(payload);
 
   const res = await submitExam(payload);
   if(res) {
@@ -392,7 +401,6 @@ const submitScore = async () => {
       getExamElements(res.data);
     }); 
   }
-  
 };
 
 const itemClickListener = (e) => {
