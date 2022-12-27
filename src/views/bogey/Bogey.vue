@@ -2,5 +2,5 @@
 
 </script>
 <template>
-<h1>Bogey</h1>
+<h1>Bogey1</h1>
 </template>
