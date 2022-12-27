@@ -1,13 +1,43 @@
-import {createStore} from 'vuex'
+import { defineStore, createPinia } from 'pinia'
+import piniaPersistConfig from '@/config/piniaPersist'
+import piniaPluginPersistedstate from 'pinia-plugin-persistedstate'
 
-export default createStore({
-  state: {
-    todos: [
-      {id: 1, text: 'basketball', checked: false},
-      {id: 2, text: 'soccer', checked: false},
-    ],
+export const GlobalStore = defineStore({
+  id: 'GlobalState',
+  // state
+  state: () => ({
+    // userData
+    token: '',
+    retoken: '',
+    version: '',
+    userInfo: '',
+  }),
+  getters: {
+    getUserInfo(state) {
+      return state.userInfo
+    },
   },
-  mutations: {},
-  actions: {},
-  getters: {},
+  actions: {
+    // setToken
+    setToken(token) {
+      this.token = token
+    },
+    setReToken(token) {
+      this.retoken = token
+    },
+    setVersion(version) {
+      this.version = version
+    },
+    // setUserInfo
+    setUserInfo(userInfo) {
+      this.userInfo = userInfo
+    },
+  },
+  persist: piniaPersistConfig('GlobalState'),
 })
+
+// piniaPersist
+const pinia = createPinia()
+pinia.use(piniaPluginPersistedstate)
+
+export default pinia
