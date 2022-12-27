@@ -5,5 +5,5 @@
   const b = ref()
 </script>
 <template>
-  <h1>Bogey</h1>
+  <h1>Bogey5</h1>
 </template>
