@@ -19,7 +19,7 @@
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/basic">Basic</RouterLink>
+        <RouterLink to="/bogey">bogey</RouterLink>
         <RouterLink to="/worldcup">WorldCup</RouterLink>
         <RouterLink to="/slot">slotTest</RouterLink>
         <RouterLink to="/myparse">파싱테슷</RouterLink>
