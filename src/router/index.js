@@ -4,6 +4,7 @@ import WorldCup from '../views/worldcup/WorldCup.vue'
 import SlotParent from '../views/test-slot/SlotParent.vue'
 import MyParse from '../views/myparse/Myparse.vue'
 import MyParse2 from '../views/myparse/Myparse2.vue'
+import Bogey from '../views/bogey/Bogey.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,9 +23,9 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue'),
     },
     {
-      path: '/basic',
-      name: 'basic',
-      component: WorldCup,
+      path: '/bogey',
+      name: 'bogey',
+      component: Bogey,
     },
     {
       path: '/worldcup',
