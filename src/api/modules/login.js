@@ -7,8 +7,11 @@ export const loginApi = async (params, callback) => {
         ...params,
     });
     console.log(data);
-    await globalStore.setToken(data.data.access_token);
-    await globalStore.setVersion(data.data.version);
+    console.log('---loginAPi--token :----',data.data.data.accessToken);
+    await globalStore.setToken(data.data.data.accessToken);
+    await globalStore.setVersion(data.data.data.version);
+
+    // console.log('----loginApi 22----')
     if (data) return callback(data);
     return null;
 };

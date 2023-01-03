@@ -21,6 +21,7 @@ export const GlobalStore = defineStore({
     actions: {
         // setToken
         setToken(token) {
+            console.log('----actions token: ----', token)
             this.token = token;
         },
         setReToken(token) {

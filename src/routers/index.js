@@ -1,5 +1,5 @@
 import { createWebHistory, createRouter } from 'vue-router';
-import { useQuasar } from 'quasar';
+import { colors, useQuasar } from 'quasar';
 import { GlobalStore } from '@/store';
 import { AuthStore } from '@/store/modules/auth';
 import { staticRouter, errorRouter } from './modules/staticRouter';
@@ -18,7 +18,9 @@ const $q = useQuasar();
 router.beforeEach(async (to, from, next) => {
     if (to.path === '/login') return next();
     const globalStore = GlobalStore();
+    // console.log('----globalstore--11--',globalStore.token)
     if (!globalStore.token) return next({ path: '/login', replace: true });
+    // console.log('----gloablStore token : ----', globalStore.token)
     const authStore = AuthStore();
     if (!authStore.menuListGet.length) {
         await initDynamicRouter();
