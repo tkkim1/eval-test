@@ -16,6 +16,7 @@ const router = createRouter({
 const $q = useQuasar();
 
 router.beforeEach(async (to, from, next) => {
+    console.log('--beforeEach - main ----')
     if (to.path === '/login') return next();
     const globalStore = GlobalStore();
     // console.log('----globalstore--11--',globalStore.token)
