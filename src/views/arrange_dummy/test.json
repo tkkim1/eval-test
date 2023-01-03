@@ -1,0 +1,344 @@
+[
+  {
+    "id": "KRT_E1_M11_L_00",
+    "exam": {
+      "head": "\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta http_quiv=\"content-type\" content=\"text/html; charset=utf-8\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/questions/myCustom.css\">\n  ",
+      "title": "\n        ※<span class=\"mmBold\"></span>&nbsp;다음 시를 읽고, 물음에\n        답하시오.\n      ",
+      "contents": "\n        <div class=\"mmBox\">\n          <p class=\"mm\">&nbsp; 그래 살아 봐야지</p>\n          <p class=\"mm\">&nbsp; 너도 나도 공이 되어</p>\n          <p class=\"mm\">&nbsp; 떨어져도 튀는 공이 되어</p>\n          <p class=\"mm\">&nbsp;</p>\n          <p class=\"mm\">&nbsp; 살아 봐야지</p>\n          <p class=\"mm\">&nbsp; 쓰러지는 법이 없는 둥근</p>\n          <p class=\"mm\">&nbsp; 공처럼, 탄력의 나라의</p>\n          <p class=\"mm\">&nbsp; 왕자처럼</p>\n          <p class=\"mm\">&nbsp;</p>\n          <p class=\"mm\">&nbsp; 가볍게 떠올라야지</p>\n          <p class=\"mm\">&nbsp; 곧 움직일 준비 되어 있는 꼴</p>\n          <p class=\"mm\">&nbsp; 둥근 공이 되어</p>\n          <p class=\"mm\">&nbsp;</p>\n          <p class=\"mm\">&nbsp; 옳지 최선의 꼴</p>\n          <p class=\"mm\">&nbsp; 지금의 네 모습처럼</p>\n          <p class=\"mm\">&nbsp; 떨어져도 튀어 오르는 공</p>\n          <p class=\"mm\">&nbsp; 쓰러지는 법이 없는 공이 되어.</p>\n        </div>\n      ",
+      "units": [
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문1)</span>&nbsp;이 시를 읽고 떠올릴 수\n          있는 장면을 떠올렸을 때 빈칸에 들어갈 가장 적절한 말을 고르시오.\n        </p>\n        <div class=\"mmQuesBox\" style=\"text-align: center\">\n          <span class=\"mmQuesBox\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;공의 모습\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 4,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">④</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;④ 이 시는 ‘튀어 오르는\n            공’의 모습을 중심으로 시상을 전개하고 있다.&nbsp;\n          </p>\n        ",
+          "bogey": ["① 날아가는 ", "② 쓰러지는", "③ 굴러가는", "④ 튀어 오르는", "⑤ 떨어지지 않는"]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문2)</span>&nbsp;&lt;보기&gt;를 참고하여\n          이 시를 이해한 내용으로 적절하지&nbsp;<span class=\"mmUnderline\">않은</span>&nbsp;것은?\n        </p>\n        <div class=\"mmQuesBox\">\n          &lt;보기&gt;<br>이 시의 화자는 힘겨운 상황 속에서 시련을 겪으면서도\n          좌절하지 않고 그 어려움을 극복하려는 의지를 보이고 있다.\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 4,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">④</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;④&nbsp;‘탄력의 나라의\n            왕자’는 ‘쓰러지는 법이 없는 둥근 공’과 같은 존재로 시련을 극복할 수\n            있는 의지를 가진 대상으로 볼 수 있다. 따라서 적절하지 않다.\n          </p>\n        ",
+          "bogey": [
+            "\n          ① ‘떨어져도’는 화자가 힘겨운 상황에 처한 것으로 볼 수 있다. \n        ",
+            "\n          ② ‘튀는’은 화자의 극복 의지가 드러나는 것으로 볼 수 있다. \n        ",
+            "\n          ③ ‘쓰러지는’은 화자가 좌절하는 것으로 볼 수 있다. \n        ",
+            "\n          ④ ‘탄력의 나라의 왕자’는 화자에게 시련을 주는 존재라고 볼 수\n          있다. \n        ",
+            "\n          ⑤ ‘움직일 준비되어 있는’은 화자가 시련을 극복하려는 의지가 있는\n          것으로 볼 수 있다. \n        "
+          ]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문3)</span>&nbsp;‘튀는’의 문맥적 의미와\n          가장 유사한 것은?\n        </p>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 4,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">④</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;④ ‘튀는’은\n            ‘떨어지다’의 반대적 의미로 쓰여 ‘솟아오르는’의 의미가 가장\n            잘&nbsp;어울린다. 따라서 적절하다.\n          </p>\n        ",
+          "bogey": ["① 움직이는 ", "② 가라앉는 ", "③ 밀려가는 ", "④ 솟아오르는 ", "⑤ 달려 나가는 "]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KRT_E1_M12_L_00",
+    "exam": {
+      "head": "\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta http_quiv=\"content-type\" content=\"text/html; charset=utf-8\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/questions/myCustom.css\">\n  ",
+      "title": "\n        ※&nbsp;<span class=\"mmBold\"></span>&nbsp;다음 시를 읽고, 물음에\n        답하시오.\n      ",
+      "contents": "\n        <div class=\"mmBox\">\n          <p class=\"mm\">&nbsp; (가) 이런들 어떠하며 저런들 어떠하리.</p>\n          <p class=\"mm\">\n            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;만수산(萬壽山) 드렁칡*이\n            얽혀진들 어떠하리.\n          </p>\n          <p class=\"mm\">\n            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;우리도 이같이 얽혀져 백 년까지\n            누리리라.\n          </p>\n          <p class=\"mmTiny\">\n            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*드렁칡: 언덕진 곳에 얽혀 있는\n            칡덩굴.\n          </p>\n          <p class=\"mm\">&nbsp;</p>\n          <p class=\"mm\">\n            &nbsp; (나) 이 몸이 죽고 죽어 일백 번 ㉠<span class=\"mmUnderline\">고쳐</span>\n            죽어,\n          </p>\n          <p class=\"mm\">\n            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;백골(白骨)이 진토(塵土)* 되어\n            넋이라도 있고 없고,\n          </p>\n          <p class=\"mm\">\n            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;임 향한 일편단심(一片丹心)이야\n            가실 줄이 있으랴.\n          </p>\n          <p class=\"mmTiny\">\n            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*진토: 티끌과 흙을 통틀어 이르는\n            말.\n          </p>\n          <p class=\"mm\">&nbsp;</p>\n        </div>\n      ",
+      "units": [
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문1)</span>&nbsp;빈칸에 들어갈 말로 적절한\n          것을 고르시오.\n        </p>\n        <div class=\"mmQuesBox\">\n          &nbsp;&nbsp;시의 분위기를 고려했을 때, (가)는 부드럽게 달래는 어조로,\n          &nbsp;(나)는&nbsp;<span class=\"mmQuesBox\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;어조로 낭송하는 것이 좋다.&nbsp;\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 3,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">③</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;(나)는 임을 향한\n            자신의 태도를 강하게 밝히고 있으므로 단호하고 의지적인&nbsp;어조로\n            낭송하는 것이 좋다.\n          </p>\n        ",
+          "bogey": ["① 힘찬 남성적", "② 순박하고 어눌한", "③ 단호하고 의지적인", "④ 힘없이 체념한 듯한", "⑤ 부드럽게 달래는 듯한"]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문2)</span>&nbsp;&lt;보기&gt;를 참고하여\n          (가)와 (나)를 감상한 내용으로 적절하지&nbsp;<span class=\"mmUnderline\">않은</span>&nbsp;것은?\n        </p>\n        <div class=\"mmQuesBox\">\n          &lt;보기&gt;<br>&nbsp;고려 말에 고려의 장수 이성계는 새로운 나라를\n          건설할 마음을 지니고 있었다. 그런데 그런 마음을 눈치챈 고려의 충신\n          정몽주가 이성계를 경계하였다. 그러나 이성계의 아들 이방원이 정몽주를\n          회유하기 위해 ‘하여가’를 읊었다. 새로운 왕조 건설에 동참하여\n          부귀영화를 누리자는 의도를 은근히 전달한 것이다, 그러자 정몽주는\n          ‘단심가’를 읊어 자신의 변치 않는 마음을 전하였다.\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 5,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">⑤</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;(가)의 화자는 고려가\n            곧 망할 것이라고 생각하고 있다. 그러나 (나)의 화자가 고려가 곧 망할\n            것으로 판단하고 있다는 내용은 나타나지 않는다. (나)의\n            화자는&nbsp;임, 즉 고려의 임금에 대한 충성심을 죽어서도 변치\n            않겠다는 태도를 보인다. 따라서 적절하지 않다.\n          </p>\n        ",
+          "bogey": [
+            "\n          ① (가)의 ‘우리’는 새로운 나라를 세우려는 사람들을 의미하겠군.\n        ",
+            "\n          ② (나)의 ‘임’은 화자가 충성하는 고려의 임금을 의미하겠군.\n        ",
+            "\n          ③ (가)의 화자는 (나)의 화자와 달리 자신과 함께 부귀영화를 누리자고\n          설득하고 있군.\n        ",
+            "\n          ④ (나)의 화자는 (가)의 화자와 달리 자신의 생각을 직설적으로 드러내고\n          있군.\n        ",
+            "\n          ⑤ (가)의 화자와 (나)의 화자는 모두 고려가 곧 망할 것으로 판단하고\n          있었겠군.\n        "
+          ]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문3)</span>&nbsp;㉠의 문맥적 의미로\n          적절하지&nbsp;<span class=\"mmUnderline\">않은</span>&nbsp;것은?\n        </p>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 4,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">④</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;㉠(고쳐)는 문맥상\n            ‘거듭하여’라는 뜻이다. 그런데 ‘문득’은 ‘생각이나 느낌&nbsp;따위가\n            갑자기 떠오르는 모양.’, 또는 ‘어떤 행위가 갑자기 이루어지는\n            모양.’이라는&nbsp;뜻이므로 ㉠(고쳐)의 문맥적 의미와 거리가 멀다.\n            따라서 적절하지 않다.\n          </p>\n        ",
+          "bogey": ["① 거듭", "② 거푸", "③ 다시", "④ 문득", "⑤ 재차"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KRT_E1_M21_L_00",
+    "exam": {
+      "head": "\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta http_quiv=\"content-type\" content=\"text/html; charset=utf-8\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/questions/myCustom.css\">\n  ",
+      "title": "\n        ※&nbsp;<span class=\"mmBold\">[1-3]</span>&nbsp;다음 시를 읽고, 물음에\n        답하시오.\n      ",
+      "contents": "\n        <div class=\"mmBox\">\n         <p class=\"mm\">&nbsp; 내를 건너서 숲으로\n        </p><p class=\"mm\">&nbsp;  고개를 넘어서 마을로\n        </p><p class=\"mm\">&nbsp; \n        </p><p class=\"mm\">&nbsp;   어제도 가고 오늘도 갈 \n        </p><p class=\"mm\">&nbsp;  나의 길 새로운 길\n        </p><p class=\"mm\">&nbsp;\n        </p><p class=\"mm\">&nbsp;  민들레가 피고 까치가 날고\n        </p><p class=\"mm\">&nbsp;  아가씨가 지나고 바람이 ㉠<span class=\"mmUnderline\">일고</span>\n        </p><p class=\"mm\">&nbsp;\n        </p><p class=\"mm\">&nbsp;  나의 길은 언제나 새로운 길\n        </p><p class=\"mm\">&nbsp;  오늘도…… 내일도……\n        </p><p class=\"mm\">&nbsp;\n        </p><p class=\"mm\">&nbsp; 내를 건너서 숲으로\n        </p><p class=\"mm\">&nbsp;  고개를 넘어서 마을로\n          </p>\n        </div>\n      ",
+      "units": [
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문1)</span>&nbsp;빈칸에 들어갈 알맞은 말을\n          고르시오.\n        </p>\n        <div class=\"mmQuesBox\">\n          &nbsp;&nbsp;이 시의 화자는&nbsp;<span class=\"mmQuesBox\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;걸어가고 있다.\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 2,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">②</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;②&nbsp;이 시의 화자는\n            ‘내’와 ‘고개’를 건너는 어려운 상황에서도 ‘어제’도 ‘오늘’도 계속해서\n            길을 가고 있다.\n          </p>\n        ",
+          "bogey": ["① 쉽고 편한 길을 ", "② 건너기 어려운 길을 ", "③ 새로운 길을 두려워하며", "④ 걷다가 쉬다가를 반복하며", "⑤ 다른 사람에게 의지하면서"]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문2)</span>&nbsp;&lt;보기&gt;를 참고하여\n          이 시를 이해한 내용으로 적절하지&nbsp;<span class=\"mmUnderline\">않은</span>&nbsp;것은?\n        </p>\n        <div class=\"mmQuesBox\">\n          &lt;보기&gt;<br>이 시는 화자가 인생을 살아가면서 겪는 시련을 보여 주고 있다. 하지만 시련 속에서 만나는 자연물이나 자연 현상을 통해 위안을 얻고, 결국 시련을 극복하고 희망의 세계에 도달하고 싶어 하는 화자의 정서와 태도가 드러나 있다. </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 5,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">⑤</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;⑤&nbsp;‘바람’은 화자가\n            길을 걸어가는 과정에서 만나는 자연 현상이다. &lt;보기&gt;에 의하면\n            화자는 자연 현상인 ‘바람’을 통해 위안을 얻는다고 할 수 있지만,\n            희망의 세계로 데려가는 존재로 보기에는 어렵다. 따라서 적절하지 않다.\n          </p>\n        ",
+          "bogey": [
+            "\n          ① ‘고개’는 넘기 어렵다는 점에서, 시련을 의미하겠군. \n        ",
+            "\n          ② ‘길’은 화자가 계속 걷는다는 점에서, 화자의 인생을\n          의미하겠군. \n        ",
+            "\n          ③ ‘마을’은 고개를 넘어서 가는 곳이라는 점에서, 희망의 세계를\n          의미하겠군. \n        ",
+            "\n          ④ ‘민들레’는 길가에 피었다는 점에서, 시련 속에서도 위안이 되는\n          존재이겠군. \n        ",
+            "\n          ⑤ ‘바람’은 불어온다는 점에서, 화자를 희망의 세계로 데려가는\n          존재이겠군. \n        "
+          ]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문3)</span>&nbsp;밑줄 친 말이 ㉠과 가장\n          유사한 의미로 쓰인 것은?\n        </p>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 1,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">①</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;① ㉠‘일고’의 ‘일다’는\n            ‘어떤 현상이 생기다.’의 의미이다. ‘파도가 일었다.’의&nbsp;‘일다’도\n            ‘어떤 현상이 생기다.’로 쓰였다. 따라서 적절하다.\n          </p>\n        ",
+          "bogey": [
+            "① 해안에는 큰 파도가 일었다.",
+            "② 아궁이에 드디어 불이 일었다.",
+            "③ 어떤 액체를 저었더니 거품이 일었다.",
+            "④ 옷을 오래도록 입었더니 보풀이 일었다.",
+            "\n          ⑤ 드디어 샘솟듯이 내 몸의 기운이 일었다.\n        "
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KRT_E1_M13_L_00",
+    "exam": {
+      "head": "\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta http_quiv=\"content-type\" content=\"text/html; charset=utf-8\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/questions/myCustom.css\">\n  ",
+      "title": "\n        ※&nbsp;<span class=\"mmBold\"></span>&nbsp;다음 글을 읽고, 물음에\n        답하시오.\n      ",
+      "contents": "\n        <div class=\"mmBox\">\n          <p class=\"mm\">&nbsp; (가) 용왕이 토끼에게 가로되,</p>\n          <p class=\"mm\">\n            &nbsp;“과인(寡人)은 수궁의 으뜸인 임금이요, 너는 산중의 조그마한\n            짐승이라. 과인이 우연히 병을 얻어 고생한 지 오래되었도다. 네 간이\n            약이 된다는 말을 듣고 특별히 별주부를 보내어 너를 데려왔으니, 너는\n            죽는 것을 한스럽게 여기지 마라. 너 죽은 후에 비단으로 몸을 싸고\n            구슬로 장식한 관에 넣어 천하의 명당자리에 묻어 줄 것이니라. 또한,\n            과인의 병이 낫게 되면, 마땅히 사당을 세워 너의 공을 표하겠노라.\n            이것이 산중에서 살다가 호랑이나 솔개의 밥이 되거나 사냥꾼에게 잡혀\n            죽는 것보다 어찌 영화로운 일이 아니겠느냐? 과인의 말은 결코 거짓이\n            아니니,너는 죽은 혼이 되더라도 조금도 나를 원망하지 말지어다.”\n          </p>\n          <p class=\"mm\">\n            &nbsp;하고는 즉시 토끼의 간을 꺼내 오라고 명령을 내렸다. 그러자 뜰\n            아래에 늘어서 있던 나졸들이 토끼의 배를 가르려 일시에 달려들었다.\n          </p>\n          <p class=\"mm\">\n            &nbsp;(나) 이때, 토끼는 용왕의 말을 듣고 난데없는 날벼락을 맞은 듯\n            정신이 아득해졌다.\n          </p>\n          <p class=\"mm\">\n            &nbsp;‘부귀영화를 누리게 해 준다는 별주부의 말에 속아 가족과 고향을\n            버리고 이렇게 왔으니, 어찌 이런 재앙이 없을쏘냐? 이제는 날개가\n            있어도 능히 하늘로 날아가지 못할 것이요, 축지법을 쓸지라도 여기서\n            능히 벗어나지 못하리니 어찌하리오?’\n          </p>\n          <p class=\"mm\">\n            &nbsp;토끼는 절망감에 빠져들었다. 그러다가 다시 생각하되,\n          </p>\n          <p class=\"mm\">\n            &nbsp;‘옛말에 이르기를 ㉠ (라)고 하였으니, 어찌 죽기만 생각하고\n            살아날 방책을 헤아리지 아니하리오?’\n          </p>\n          <p class=\"mm\">&nbsp;하더니 문득 한 묘한 꾀를 생각해 냈다.</p>\n          <p class=\"mm\">\n            &nbsp;이에, 얼굴빛을 태연스럽게 하고 고개를 들어 용왕을 우러러보며\n            가로되,\n          </p>\n          <p class=\"mm\">\n            &nbsp;(다) “제가 비록 죽을지라도 한 말씀 아뢰리다. 용왕님은 수궁의\n            임금이시요, 저는 산중의 하찮은 짐승일 따름이옵니다. 만일, 제 간으로\n            용왕님의 병환을 낫게 할 수만 있다면, 어찌 한낱 간 따위를\n            아끼겠나이까? 게다가 죽은 뒤에 후하게 장사를 지내 주고 사당까지 세워\n            주신다고 하시니, 그 은혜는 하늘과 같이 넓고 크나이다. 비록 지금\n            죽는다고 한들 어찌 조금이라도 여한이 있겠사옵니까? 다만 애달픈 바는\n            제가 비록 하찮은 짐승이오나 보통 짐승과 달라, 지금은 간이 없나이다.\n            저는 본래 하늘의 정기를 타고 태어난 까닭에 아침이면 옥 같은 이슬을\n            받아 마시며 밤낮으로 향기로운 풀을 뜯어 먹고 사옵니다. 제 간이\n            영약(靈藥)이 되는 것은 그런 까닭입니다. 그래서 세상 사람은 저를 만날\n            때마다 간을 달라고 심히보채지요. 저는 이런 간절한 부탁을 매번\n            거절하기 어려워 간을 염통과 함께 꺼내 맑은 계곡물에 여러 번 씻어\n            높은 산, 깊은 바위틈에 감춰 두고 다닌답니다.그러다가 우연히 별주부를\n            만나 여기에 따라온 것이니, 만일 용왕님의 병환이 이러한 줄 알았던들\n            어찌 가져오지 아니하였겠나이까?”\n          </p>\n          <p class=\"mm\">&nbsp;하며 도리어 자라를 꾸짖었다.</p>\n          <p class=\"mm\">&nbsp;</p>\n          <p class=\"mm\">&nbsp;(중략)</p>\n          <p class=\"mm\">&nbsp;</p>\n          <p class=\"mm\">\n            &nbsp;(라) “네가 간을 들이고 낼 수 있다 하니, 배 속에 간이 있는데\n            혹시 착각하고 있는 것은 아닌가? 그렇다면 배를 갈라 보아야 하지\n            않겠는가?” 토끼가 다시 여쭈었다.\n          </p>\n          <p class=\"mm\">\n            &nbsp;“제가 비록 간을 들이고 낼 수 있으나, 그 또한 정해진 때가\n            있사옵니다. 매달 초하루부터 보름까지는 배 속에 넣어 해와 달의 정기를\n            받아 천지의 기운을 온전히 간직하고, 보름부터 그믐까지는 배에서 꺼내\n            옥처럼 깨끗한 계곡물에 씻어 소나무와 대나무가 우거진 깨끗한 바위틈에\n            아무도 모르게 감춰 둔답니다. 그렇기에 제 간을 두고 세상 사람들이\n            모두 영약이라고 하는 것이지요. 별주부를 만난 때는 곧 오월\n            하순이었습니다. 만일, 별주부가 용왕님의 병환이 이렇듯 위급함을 미리\n            말했더라면 며칠 기다렸다 간을 가져왔을 것이니, 이는 모두 별주부의\n            미련한 탓이로소이다.”\n          </p>\n          <p class=\"mm\">\n            &nbsp;(마) 대개 수궁은 육지의 사정에 밝지 못한 까닭에 용왕은 토끼의\n            말을 묵묵히 듣고 있다가 속으로 헤아리되,\n          </p>\n          <p class=\"mm\">\n            &nbsp;‘만일 저 말과 같을진대, 배를 갈라 간이 없으면 애써 잡은 토끼만\n            죽일 따름이요, 다시 누구에게 간을 얻을 수 있으리오? 차라리 살살\n            달래어 육지에 나가 간을 가져오게 함이 옳도다.’\n          </p>\n          <p class=\"mm\">\n            &nbsp;하고, 좌우에 명하여 토끼의 결박을 풀고 자리를 마련해 편히\n            앉도록 했다.\n          </p>\n        </div>\n      ",
+      "units": [
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문1)</span>&nbsp;㉠에 들어갈 말로 가장\n          적절한 것은? \n        </p>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 4,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">④</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;위험한 상황에\n            빠지더라도 정신만 차리면 산다는 속담으로 임기응변과 연관이 있는\n            ‘호랑이 굴에 들어가도 정신만 차리면 산다.’가 적절하다.\n          </p>\n        ",
+          "bogey": [
+            "① 가는 날이 장날이다.",
+            "② 가는 말이 고와야 오는 말이 곱다.",
+            "③ 구슬이 서 말이라도 꿰어야 보배이다.",
+            "④ 호랑이 굴에 들어가도 정신만 차리면 산다.",
+            "\n          ⑤ 열 길 물속은 알아도 한 길 사람 속은 모른다. \n        "
+          ]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문2)</span>&nbsp;이 글의 토끼를 평가한\n          것으로 가장 적절한 것은?\n        </p>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 3,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">③</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;토끼는 죽음의 순간에서\n            침착하게 벗어날 방법을 찾는 지혜로운 인간을 대변한다.&nbsp;\n          </p>\n        ",
+          "bogey": [
+            "① 다른 사람을 위해 희생하는 인간",
+            "② 출세만을 생각하는 속물적인 인간",
+            "③ 어려움을 극복하는 지혜로운 인간",
+            "④ 은혜를 갚을 줄 모르는 파렴치한 인간",
+            "\n          ⑤ 자신의 이익만을 위하는 이기적인 인간 \n        "
+          ]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문3)</span>&lt;보기&gt;를 참고하여 이와\n          같은 글의 특징을 파악한 것으로 적절하지&nbsp;<span class=\"mmUnderline\">않은</span>&nbsp;것은?\n        </p>\n        <div class=\"mmQuesBox\">  판소리계 소설은 고전소설처럼 이야기의 전개 방식이 우연적인 경우가 많고, 민중의 소망이 잘 반영되어 있다. 다만, 글에 리듬감이 느껴져 낭독하기 쉽다는 점에서 고전소설과 구분이 된다. 또한, 판소리계 소설은 대부분 구전을 통해 전해 내려오기 때문에 시대적 상황이나 전달자에 따라 소설의 내용이 변형되기도 한다. \n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 2,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">②</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;고전소설은 이야기의\n            전개 방식이 우연적이고, 권선징악의 교훈을 가지는 경우가\n            많다. \n          </p>\n        ",
+          "bogey": [
+            "\n          ① 운문체와 산문체가 결합하여 낭독하기에 수월하다. \n        ",
+            "\n          ② 필연적인 사건을 중심으로 전개되어 현실감이 느껴진다. \n        ",
+            "\n          ③ 민중의 소망이 반영된 적층문학으로 당대의 사회상이 잘 드러난다.\n        ",
+            "\n          ④ 이야기를 전달하는 사람의 의도에 따라 결말의 내용이 달라지기도\n          한다. \n        ",
+            "\n          ⑤ 배경 설화를 바탕으로 구전되어 오다가 판소리를 거쳐 소설로\n          정착되었다.\n        "
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KRT_E1_M23_L_00",
+    "exam": {
+      "head": "\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta http_quiv=\"content-type\" content=\"text/html; charset=utf-8\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/questions/myCustom.css\">\n  ",
+      "title": "\n        ※&nbsp;<span class=\"mmBold\">[7-9]</span>&nbsp;다음 글을 읽고, 물음에\n        답하시오.\n      ",
+      "contents": "\n        <div class=\"mmBox\">\n          <p class=\"mm\">\n            &nbsp; (가) 조선조 세종 때에 한 재상이 있었으니, 성은 홍씨요 이름은\n            아무였다. 대대 명문거족의 후예로서 어린 나이에 급제해 벼슬이 이조\n            판서에까지 이르렀다. 물망이 조야에 으뜸인 데다 충효까지 갖추어\n            ㉠<span class=\"mmUnderline\">그 이름을 온 나라에 떨쳤다</span>. 일찍\n            두 아들을 두었데, 하나는 이름이 인형으로서 본처 유씨가 낳은\n            아들이고, 다른 하나는 이름이 길동으로서 시비 춘섬이 낳은 아들이었다.\n          </p>\n          <p class=\"mm\">\n            &nbsp;(나) 길동이 점점 자라 여덟 살이 되자, 총명하기가 보통이 넘어\n            하나를 들으면 백 가지를 알 정도였다. 그래서 공(公)은 길동을 더욱\n            ㉡<span class=\"mmUnderline\">귀여워하면서도</span> 길동의 출생이\n            천하여, 길동이 ‘아버지’나 ‘형’하고 부를 때마다 즉시 꾸짖어 그렇게\n            부르지 못하게 하였다. 길동은 열 살이 넘도록 감히\n            호부호형(呼父呼兄)하지 못하고 종들로부터 천대받는 것을 뼈에\n            사무치도록 한탄하면서 ㉢<span class=\"mmUnderline\">마음 둘 바를 몰랐다</span>.\n          </p>\n          <p class=\"mm\">\n            &nbsp;(다) 어느 가을 9월 보름께가 되자, 달빛이 밝게 비치고 맑은\n            바람이 쓸쓸하게 불어와 사람의 마음을 ㉣<span class=\"mmUnderline\">울적하게 하였다</span>. 길동은 서당에서 글을 읽다가 문득 책상을 밀치고 탄식하기를,\n          </p>\n          <p class=\"mm\">\n            &nbsp;“대장부가 세상에 나서 공맹(孔孟)을 본받지 못할 바에야 차라리\n            병법(兵法)이라도 익혀, 대장인(大將印)을 허리춤에 비스듬히 차고\n            동정서벌(東征西伐)하여 나라에 큰 공을 세우고 이름을 오래도록 빛내는\n            것이 장부의 통쾌한 일이 아니겠는가! 나는 어찌하여 이 한 몸 적막하여,\n            아버지와 형이 있는데도 아버지를 ‘아버지’라 부르지 못하고 형을\n            ‘형’이라고 부르지 못하니, ㉤<span class=\"mmUnderline\">심장이 터질지라</span>. 이 어찌 통탄할 일이 아니겠는가!”\n          </p>\n          <p class=\"mm\">&nbsp;하고, 뜰에 내려와 검술을 익히고 있었다.</p>\n          <p class=\"mm\">\n            &nbsp;(라) 그때 마침, 공이 또한 달빛을 구경하다가, 길동이 서성거리는\n            것을 보고 즉시 불러 물었다.\n          </p>\n          <p class=\"mm\">\n            &nbsp;“너는 무슨 흥이 있어서 밤이 깊도록 잠을 자지 않느냐?”\n          </p>\n          <p class=\"mm\">&nbsp;길동이 공경하는 자세로 대답하였다.</p>\n          <p class=\"mm\">\n            &nbsp;“소인(小人)이 마침 달빛을 즐기는 중입니다. 그런데 만물(萬物)이\n            생겨날 때부터 오직 사람이 귀한 존재인 줄 아옵니다. 그러나 소인에게는\n            귀함이 없사오니 어찌 사람이라 하겠습니까?”\n          </p>\n          <p class=\"mm\">\n            &nbsp;공은 그 말의 뜻을 짐작은 했지만, 일부러 책망하며 말하였다.\n          </p>\n          <p class=\"mm\">&nbsp;“너 그게 무슨 말이냐?”</p>\n          <p class=\"mm\">&nbsp;(마) 길동이 절하고 말씀드리기를</p>\n          <p class=\"mm\">\n            &nbsp;“소인이 평생 서러워하는 바는, 소인이 대감의 정기(精氣)를 받아\n            당당한 남자로 태어났고, 또 낳아서 길러 주신 어버이의 은혜를\n            입었는데도 아버지를 ‘아버지’라 못 하옵고 형을 ‘형’이라 못 하오니,\n            어찌 사람이라 하겠습니까?”\n          </p>\n          <p class=\"mm\">&nbsp;하고, 눈물을 흘리며 적삼을 적셨다.-</p>\n        </div>\n      ",
+      "units": [
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문1)</span>&nbsp;다음 빈칸에 들어갈 알맞은\n          말을 고르시오.\n        </p>\n        <div class=\"mmQuesBox\">\n          &nbsp;&nbsp;이 글에서 길동은&nbsp;<span class=\"mmQuesBox\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;때문에 호부호형(呼父呼兄)하지 못하고, 관직에도 나갈 수 없어\n          괴로워하고 있다.\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 1,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">①</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;이 글에서 길동은\n            서자라는 천한 신분 때문에 호부호형하지 못하고, 관직에도 나갈 수 없어\n            괴로워하고 있다.\n          </p>\n        ",
+          "bogey": ["① 서자라는 신분", "② 형 인형과의 갈등", "③ 어머니 춘섬의 부재", "④ 아버지 홍판서의 반대", "⑤ 재능이 없다는 좌절감"]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문2)</span>&nbsp;&lt;보기&gt;를 참고하여,\n          이 글과 비교한 것으로 적절하지&nbsp;<span class=\"mmUnderline\">않은</span>&nbsp;것은?\n        </p>\n        <div class=\"mmQuesBox\">\n          &lt;보기&gt;<br>“신은 종의 자식이라 하여 아버지를 아버지라 부르지\n          못하옵고 형을 형이라 부르지 못하여 가슴에 맺힌 한이 깊습니다. 그리하여\n          세상을 등지고 도적의 무리에 들어가 그 우두머리가 된 것입니다. 하오나\n          선량한 백성의 것은 터럭 하나 건드리지 않았고 탐관오리들의 재물만\n          거두어 가난한 백성들에게 돌려주었나이다. 임금은 한 나라의 어버이라\n          하였으니, 백성이 나라의 곡식을 먹는 것은 그 어버이의 것을 먹는 것과\n          같은 이치옵니다. 이제 곧 소신은 이 나라를 떠날 것이옵니다. 전하께서는\n          부디 저를 잡으라는 영을 거두소서.” 말을 마친 여덟 길동이 그 자리에\n          털썩털썩 거꾸러졌는데 다름 아닌 풀로 엮은 허수아비였다.\n          <p class=\"mmRight\">- 작자미상, &lt;홍길동전(경판본)&gt;</p>\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 3,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">③</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;이 글에 나타난 길동의\n            비범한 성질은 &lt;보기&gt;에서 우두머리가 되고, 도술을&nbsp;부리는\n            등의 모습으로 확장되어 제시되고 있다. 따라서 적절하지 않다.\n            &nbsp;&nbsp;&nbsp;\n          </p>\n        ",
+          "bogey": [
+            "\n          ① 이 글에 나타난 길동의 적서차별에 대한 한탄은 <보기>에도\n          이어지는군. \n        ",
+            "\n          ② 이 글에 나타난 길동의 소극적 행동은 <보기>에서 적극적 행동으로\n          바뀌는군.\n        ",
+            "\n          ③ 이 글에 나타난 길동의 비범한 성질은 <보기>에서 확인할 수\n          없군. \n        ",
+            "\n          ④ 이 글에 나타난 길동의 소망은 <보기>에서 이루어지지 못하는군.\n        ",
+            "\n          ⑤ 이 글에 나타난 길동의 괴로움은 <보기>에서 새로운 사건의 계기가\n          되는군.  \n        "
+          ]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문3)</span>&nbsp;&nbsp;㉠~㉤의 의미에 대한\n          설명으로 적절하지&nbsp;<span class=\"mmUnderline\">않은</span>&nbsp;것은?\n        </p>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 3,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">③</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;마음 둘 바를 모르다 :\n            ‘어찌할 바를 몰라 방황했다.’의 의미로 쓰였다. 따라서 적절하지 않다.\n          </p>\n        ",
+          "bogey": [
+            "\n          ① ㉠ 이름을 온 나라에 떨쳤다: 이름을 알리고 유명해졌다. \n        ",
+            "\n          ② ㉡ 귀여워하면서도: 아끼고 사랑하면서도 \n        ",
+            "\n          ③ ㉢ 마음 둘 바를 몰랐다: 어떤 일의 결정을 내리지 못했다. \n        ",
+            "\n          ④ ㉣ 울적하게 하였다: 마음이 답답하고 쓸쓸하게 하였다.\n        ",
+            "\n          ⑤ ㉤ 심장이 터질지라: 매우 안타깝고 괴롭다. \n        "
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KRT_E1_M22_L_00",
+    "exam": {
+      "head": "\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta http_quiv=\"content-type\" content=\"text/html; charset=utf-8\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/questions/myCustom.css\">\n  ",
+      "title": "※&nbsp;<span class=\"mmBold\"></span>&nbsp;다음 시를 읽고, 물음에 답하시오.",
+      "contents": "\n        <div class=\"mmBox\">\n          <p class=\"mm\">&nbsp;㉠<span class=\"mmUnderline\">태산</span>이 놉다 하되 하늘 아래 뫼히로다.</p>\n          <p class=\"mm\">&nbsp;오르고 또 오르면 못 오를 리 업건마는</p>\n          <p class=\"mm\">&nbsp;사람이 제 아니 오르고 뫼만 놉다 하더라.</p>\n        </div>\n      ",
+      "units": [
+        {
+          "text": "\n        <p class=\"mm\"><span class=\"mmBold mmRed\">(문1)</span>&nbsp;빈칸에 들어갈 알맞은 말을 고르시오.</p>\n        <div class=\"mmQuesBox\">\n          &nbsp;이 시는 목표를 향해 노력하는 것을&nbsp;<span class=\"mmQuesBox\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>에 빗대어 표현하고&nbsp;있다.\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 1,
+          "explanation": "\n          <p class=\"mm\"><span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">①</span></p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;이 시는 목표를 향해 노력하는 것을 산에 오르는 과정에 빗대며\n            목표를 이루려고 노력하지 않고 포기하는 사람을 비판하고 있다.\n          </p>\n        ",
+          "bogey": ["① 산에 오르는 과정", "② 산이 만들어지는 과정", "③ 하늘을 올려다보는 행동", "④ 가장 높은 산을 고르는 행동", "⑤ 하늘과 산의 높이를 비교하는 행동"]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문2)</span>&nbsp;&lt;보기&gt;를 참고했을 때 화자가 비판하는 대상으로\n          적절하지&nbsp;<span class=\"mmUnderline\">않은</span>&nbsp;것은?\n        </p>\n        <div class=\"mmQuesBox\">\n          &lt;보기&gt;<br>「태산이 높다 하되」는 사람들이 태산이 높다고 겁먹고 오르지 않는 모습을 통해 노력해 보지도\n          않고 체념하는 사람들을 비판하고 있다. 그리하여 화자는 아무리 높은 태산도 하늘 아래에 있기에 오르고 또 오르기를\n          강조하고, 지속적인 노력을 하면 목표를 언젠가는 달성할 수 있다고 말한다.\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 5,
+          "explanation": "\n          <p class=\"mm\"><span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">⑤</span></p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;어깨 부상은 체념이 아닌 외부적 요소로 인한 것이다. 또한\n            재활이라는 노력을 통해 내년에는 좋은 선수가 되고 싶어 하기에 비판의 대상으로 보기 어렵다. 따라서 적절하지\n            않다.\n          </p>\n        ",
+          "bogey": [
+            "① 형우 : 운동 능력이 없어서 경찰 공무원의 꿈은 포기해야겠어.",
+            "② 용희 : 나는 발표할 때 떠는 성격이라 다른 친구에게 모두 맡겨야겠어.",
+            "③ 성배 : 나는 중학교 때 수학을 못 했으니 고등학교 때는 그냥 포기해야겠어.",
+            "④ 형준 : 소방 공무원 시험이 올해는 높은 경쟁률이니 내년에 시험을 봐야겠어.",
+            "\n          ⑤ 수철 : 어깨 부상으로 올해 경기에 참가를 못 했지만, 재활 훈련을 해서 내년에는 반드시 참가할 거야.\n        "
+          ]
+        },
+        {
+          "text": "\n        <p class=\"mm\"><span class=\"mmBold mmRed\">(문3)</span>&nbsp;㉠의 사전적 의미로 가장 적절한 것은?</p>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 1,
+          "explanation": "\n          <p class=\"mm\"><span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">①</span></p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span> ㉠(태산)은 ‘높고 큰 산’의 뜻이다. 중국 산동성에 있는 산의\n            이름이기도 하다. 따라서 적절하다.\n          </p>\n        ",
+          "bogey": [
+            "① 높고 큰 산.",
+            "② 크게 뭉쳐서 이루어진 것.",
+            "③ 한데 뭉치거나 말리거나 감은 덩이.",
+            "④ 한데 수북이 쌓였거나 뭉쳐 있는 더미나 무리.",
+            "⑤ 물건이 많이 쌓여 있음을 비유적으로 이르는 말."
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KRT_E1_M31_L_00",
+    "exam": {
+      "head": "\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta http_quiv=\"content-type\" content=\"text/html; charset=utf-8\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/questions/myCustom.css\">\n  ",
+      "title": "\n        ※&nbsp;<span class=\"mmBold\">[1-3]</span>&nbsp;다음 시를 읽고, 물음에\n        답하시오.\n      ",
+      "contents": "\n        <div class=\"mmBox\">\n          <p class=\"mm\">&nbsp; 나는 나룻배</p>\n          <p class=\"mm\">&nbsp; 당신은 행인.</p>\n          <p class=\"mm\">&nbsp;</p>\n          <p class=\"mm\">&nbsp; 당신은 흙발로 나를 짓밟습니다.</p>\n          <p class=\"mm\">&nbsp; 나는 당신을 안고 물을 건너갑니다.</p>\n          <p class=\"mm\">\n            &nbsp; 나는 당신을 안으면 깊으나 옅으나 급한 여울이나 건너갑니다.\n          </p>\n          <p class=\"mm\">&nbsp;</p>\n          <p class=\"mm\">\n            &nbsp; 만일 당신이 아니 오시면 나는 바람을 쐬고 눈비를 맞으며 밤에서\n            낮까지 당신을 기다리고 있습니다.\n          </p>\n          <p class=\"mm\">\n            &nbsp; 당신은 물만 건너면 나를 돌아보지도 않고 가십니다그려.\n          </p>\n          <p class=\"mm\">&nbsp; 그러나 당신이 언제든지 오실 줄만은 알아요.</p>\n          <p class=\"mm\">\n            &nbsp; 나는 당신을 기다리면서 날마다 날마다 낡아 갑니다.\n          </p>\n          <p class=\"mm\">&nbsp;</p>\n          <p class=\"mm\">&nbsp; 나는 나룻배</p>\n          <p class=\"mm\">&nbsp; 당신은 행인.</p>\n        </div>\n      ",
+      "units": [
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문1)</span>빈칸에 들어갈 알맞은 말을\n          고르시오.\n        </p>\n        <div class=\"mmQuesBox\">\n          &nbsp;&nbsp;&nbsp;이 시의 화자는 자신의 마음을 알아주지 않는\n          ‘당신’에게&nbsp;<span class=\"mmQuesBox\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;태도를 보이고 있다.\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 2,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">②</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;이 시의 화자는\n            ‘나’이다. 2연과 3연의 내용에서 ‘나’는 희생적이고\n            헌신적인&nbsp;사랑을 실천하고 있음을 알 수 있다.\n          </p>\n        ",
+          "bogey": ["① 체념하는", "② 헌신적인", "③ 원망하는", "④ 집착하는", "⑤ 냉소적인"]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문2)</span>&nbsp;이 시를 &lt;보기&gt;처럼\n          바꾸었을 때 나타나는 변화에 대한 이해로 적절하지\n          <span class=\"mmUnderline\">않은</span> 것은?\n        </p>\n        <div class=\"mmQuesBox\">\n          &lt;보기&gt;<br>\n          <p class=\"mm\">&nbsp;나는 행인 / 너는 나룻배</p>\n          <p class=\"mm\">&nbsp;</p>\n          <p class=\"mm\">&nbsp;나는 흙발로 너를 짓밟는다.</p>\n          <p class=\"mm\">&nbsp;너는 나를 안고 물을 건너간다.</p>\n          <p class=\"mm\">\n            &nbsp;너는 나를 안으면 깊으나 옅으나 급한 여울이나 건너간다.\n          </p>\n          <p class=\"mm\">&nbsp;</p>\n          <p class=\"mm\">\n            &nbsp;만일 내가 가지 않더라도 너는 바람을 쐬고 눈비를 맞으며 밤에서\n            낮까지 나를 기다리고 있을 것이다.\n          </p>\n          <p class=\"mm\">\n            &nbsp;네가 물을 건네 주면 나는 돌아보지도 않고 가 버린다.\n          </p>\n          <p class=\"mm\">&nbsp;그러나 네가 언제까지 기다릴 줄만은 안다.</p>\n          <p class=\"mm\">\n            &nbsp;너는 나를 기다리면서 날마다 날마다 낡아갈 것이다.\n          </p>\n          <p class=\"mm\">&nbsp;</p>\n          <p class=\"mm\">&nbsp;나는 행인 / 너는 나룻배</p>\n        </div>\n\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 2,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">②</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;이 시는 ‘나룻배’가\n            화자인 반면, &lt;보기&gt;는 ‘행인’이 화자이다. 하지만 화자가\n            바뀌더라도 시의 전체적인 구조는 달라지지 않았으므로 운을 형성하는\n            요소의&nbsp;변화는 이루어지지 않는다. 따라서 적절하지 않다.\n          </p>\n        ",
+          "bogey": ["① 시의 상황이 달라지는군.", "② 시의 운율이 달라지는군.", "③ 시의 주제가 달라지는군.", "④ 행위의 주체가 달라지는군.", "⑤ 시의 분위기가 달라지는군."]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문3)</span>&nbsp;다음 한자성어를\n          적용하기에 가장 적절한 구절은?\n        </p>\n        <div class=\"mmQuesBox\">\n          ● 거자필반(去者必返): 헤어진 사람은 언젠가 반드시 돌아오게 된다는\n          의미를&nbsp;지닌 말로, 만난 사람은 반드시 헤어진다는 의미의\n          ‘회자정리(會者定離)’라는&nbsp;말과 함께 불교 경전에 나오는 용어이다.\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 4,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">④</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;‘당신이 언제든지 오실\n            줄만은 알아요.’는 언젠가는 당신과 재회할 것이라는&nbsp;믿음이\n            드러나는 구절이다. 따라서 &lt;보기&gt;의 ‘거자필반’이라는 말을\n            적용하기에 적절하다.\n          </p>\n        ",
+          "bogey": [
+            "① 당신은 흙발로 나를 짓밟습니다.",
+            "② 나는 당신을 안고 물을 건너갑니다.",
+            "\n          ③ 당신은 물만 건너면 나를 돌아보지도 않고 가십니다그려.\n        ",
+            "④ 당신이 언제든지 오실 줄만은 알아요.",
+            "\n          ⑤ 나는 당신을 기다리면서 날마다 날마다 낡아 갑니다\n        "
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KRT_E1_M32_L_00",
+    "exam": {
+      "head": "\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta http_quiv=\"content-type\" content=\"text/html; charset=utf-8\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/questions/myCustom.css\">\n  ",
+      "title": "\n        ※&nbsp;<span class=\"mmBold\"></span>다음 시를 읽고, 물음에 답하시오.\n      ",
+      "contents": "\n        <div class=\"mmBox\">\n          <p class=\"mm\">\n            &nbsp; 펄펄&nbsp;나는\n            저&nbsp;꾀꼬리&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;翩翩黃鳥&nbsp;\n          </p>\n          <p class=\"mm\">\n            &nbsp;암수 서로 ⓐ<span class=\"mmUnderline\">정답구나</span>.&nbsp;&nbsp;&nbsp;&nbsp;雌雄相依&nbsp;\n          </p>\n          <p class=\"mm\">\n            &nbsp;㉠<span class=\"mmUnderline\">외로워라 이 내 몸은</span>&nbsp;&nbsp;&nbsp; 念我之獨&nbsp;\n          </p>\n          <p class=\"mm\">\n            &nbsp;뉘와 함께\n            돌아갈꼬.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;誰其與歸&nbsp;\n          </p>\n        </div>\n      ",
+      "units": [
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문1)</span>&nbsp;빈칸에 들어갈 알맞은 말을\n          고르시오.\n        </p>\n        <div class=\"mmQuesBox\">\n          &nbsp;&nbsp;이 시에서 꾀꼬리는 화자의 처지와&nbsp;<span class=\"mmQuesBox\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>&nbsp;존재로, 화자가 자신의 처지를 환기하게 한다.\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 3,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">③</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;짝을 지어 정답게\n            노니는 이 시의 ‘꾀꼬리’는 임을 잃은 화자와 대조되는 존재로, 화자에게\n            부러움과 질투의 감정을 불러일으킨다.\n          </p>\n        ",
+          "bogey": ["① 충돌하는", "② 비유되는", "③ 대조되는", "④ 동일시되는", "⑤ 공감대를 형성하는"]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문2)</span>&nbsp;&lt;보기&gt;를 바탕으로\n          ㉠을 이해한 내용으로 가장 적절한 것은?   </p>\n        <div class=\"mmQuesBox\">\n          &lt;보기&gt;<br>\n          시의 표현 기법 중 하나인 강조법은 어떤 내용을 선명하게 전달하거나\n          두드러지게 표현하는 기법인데, 반복법, 대조법, 점층법, 과장법, 영탄법\n          등이 이에 속한다. 또 변화법은 문장의 서술 방식이나 표현 방식에 변화를\n          주어 단조로움을 피하고 독자의 주의를 집중시키며 주제를 효과적으로\n          전달하는 기법인데, 역설법, 반어법, 설의법, 도치법, 대구법 등이 이에\n          속한다.\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 5,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">⑤</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;㉠(외로워라 이 내\n            몸은)에는 변화법 중 문장의 서술 순서를 바꾸는 도치법이 사용되어\n            있다. 그리고 &lt;보기&gt;에서 변화법은 ‘독자의 주의를 집중시키’는\n            표현법이라고 하였다. 따라서 적절하다.\n          </p>\n        ",
+          "bogey": [
+            "\n          ① 과장법을 통해 화자의 정서를 부풀려 표현하고 있군.\n        ",
+            "\n          ② 대조법을 통해 화자의 정서를 선명하게 전달하고 있군.\n        ",
+            "\n          ③ 설의법을 통해 작품의 주제를 효과적으로 전달하고 있군.\n        ",
+            "\n          ④ 대구법을 통해 단조롭고 평범한 내용에 변화를 주고 있군.\n        ",
+            "\n          ⑤ 도치법을 통해 화자의 정서에 대한 독자의 주의를 끌고 있군.\n        "
+          ]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문3)</span>&nbsp;문맥상 ⓐ와 바꿔 쓰기에\n          적절하지&nbsp;<span class=\"mmUnderline\">않은</span>&nbsp;것은?\n        </p>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 4,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">④</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;ⓐ(정답구나)는 ‘따뜻한\n            정이 있다.’를 의미한다. 그런데 ‘애잔하다’는 ‘가엾고&nbsp;불쌍해\n            마음이 슬프고, 안타까워 애가 탄다.’를 의미한다. 따라서 적절하지\n            않다.\n          </p>\n        ",
+          "bogey": ["① 의좋구나", "② 다정하구나", "③ 사이좋구나", "④ 애잔하구나", "⑤ 화목하구나"]
+        }
+      ]
+    }
+  },
+  {
+    "id": "KRT_E1_M33_L_00",
+    "exam": {
+      "head": "\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n    <meta http_quiv=\"content-type\" content=\"text/html; charset=utf-8\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"assets/questions/myCustom.css\">\n  ",
+      "title": "\n        ※<span class=\"mmBold\"></span>&nbsp;다음 글을 읽고, 물음에 답하시오.\n      ",
+      "contents": "\n        <div class=\"mmBox\">\n          <p class=\"mm\">\n            &nbsp; 강원도 정선 고을에 한 양반이 살고 있었다. 그는 성품이 어질고\n            글 읽기를 매우 좋아했다. 이 고을에 새로 부임해 오는 군수는 으레 이\n            양반을 먼저 찾아보았고, 그에게 두터운 경의를 표현하는 것이 관례로\n            되어 있었다. 그러나 워낙 살림이 가난해서 해마다 관가에서 곡식을\n            꾸어다 먹는 신세였는데, 여러 해가 쌓이고 보니 꾸어먹은 곡식이 천\n            석이나 되었다. 관찰사가 여러 고을을 돌아다니다가 마침 정선에 이르러\n            관청의 곡식 장부를 살펴보고는 그만 몹시 노하게 되었다.\n          </p>\n          <p class=\"mm\">\n            &nbsp; “어떤 놈의 양반이 나라의 곡식을 이렇게 많이 축냈단 말이냐?”\n          </p>\n          <p class=\"mm\">\n            &nbsp; 관찰사는 즉시 그 양반을 잡아 옥에 가두라고 명하였다.\n          </p>\n          <p class=\"mm\">\n            &nbsp; 이 사실을 전해 들은 양반은 밤낮으로 울기만 할 뿐, 아무런\n            대책도 세울 수 없었다. 그의 아내가 남편에게 푸념을 했다.\n          </p>\n          <p class=\"mm\">\n            &nbsp; “당신은 한평생 앉아서 글만 읽더니 관가에서 빌린 곡식을 한\n            톨도 갚지 못하는 무능력한 사람이 되었구려. 에이! 더럽소. 양반, 양반\n            하더니 그 양반이라는 것이 아무 쓸모가 없는 것이구려.”\n          </p>\n          <p class=\"mm\">\n            &nbsp; 한편 그 마을에는 부자 한 사람이 살고 있었다. 양반이 곤경에\n            처하게 된 사실을 들은 부자는 식구들을 모아 놓고 이런 말을 하였다.\n          </p>\n          <p class=\"mm\">\n            &nbsp; “양반은 아무리 가난해도 항상 높고 영화스럽건만, 우리는 아무리\n            돈이 많아도 항상\n            <span class=\"mmBox\">\n              &nbsp;&nbsp;&nbsp;&nbsp;㉠&nbsp;&nbsp;&nbsp;&nbsp;</span>\n            . 감히 말을 한 번 타 볼 수도 없고, 양반만 보면 저절로 기가 죽어서\n            쩔쩔매고 굽실거리며 절을 해야 하지. 참으로 더러운 일이 아닐 수 없단\n            말이야. 그런데 마침 저 양반이 가난해서 관가에서 꾼 곡식을 갚지 못해\n            몹시 곤란해진 모양이야. 양반 자리도 지닐 수 없는 형편이 되었다고\n            하니, 이제 우리가 그 ‘양반’이라는 것을 돈으로 사서 행세하는 것이\n            어떻겠는가?”\n          </p>\n          <p class=\"mm\">\n            &nbsp;부자는 즉시 양반을 찾아가서 관가의 곡식을 자기가 대신 갚겠다고\n            자청하였다. 양반은 크게 기뻐하면서 허락하였다. 그래서 부자는 곧\n            곡식을 관가에 보내어 모두 갚아 주었다. 군수는 영문을 모른 채 매우\n            놀라 양반을 찾아가 그 까닭을 물었다. 그러자 양반은 초라한 옷차림을\n            한 채로 길바닥에 엎드려, 자신을 ‘쇤네’라고 칭하면서 감히 군수를\n            올려다보지도 못하였다. 군수가 깜짝 놀라 그를 일으켜 세우며, “이게\n            어찌된 일이오? 저를 놀리시는게요?”라고 하였다.\n          </p>\n          <p class=\"mm\">\n            &nbsp;양반은 더욱 황송하여 머리를 조아리고 엎드린 채 말하였다.\n          </p>\n          <p class=\"mm\">\n            &nbsp;“황송하옵니다. 쇤네가 감히 어떻게 군수님을 놀리겠습니까?\n            쇤네가 양반을 팔아서 관가의 곡식을 갚았으니, 이제 저는 양반이 아니라\n            평민이옵고, 이제부터는 마을의 부자가 양반이옵니다. 쇤네가 어찌 다시\n            뻔뻔스럽게 옛날처럼 양반 행세를 할 수 있겠습니까?”\n          </p>\n          <p class=\"mm\">&nbsp;군수가 감탄하며 이렇게 말하였다.</p>\n          <p class=\"mm\">\n            &nbsp;“그 부자가 참군자요, 양반이로다. 재산이 부유하면서도 인색하지\n            않으니 이것은 의리가 있는 것이요, 남의 어려운 일을 자기 일처럼\n            여겼으니 이것은 어진 것이요, 또한 낮은 신분을 싫어하고 높은 자리를\n            사모하니 이는 지혜가 있는 것이로다. 이 부자야말로 참된 양반이로다.\n            그런데 한 가지 걱정되는 것은, 양반 자리를 두 사람이서만 매매하고\n            아무런 증서도 만들어 ㉡놓지 않으면 돈 주고 샀다며 남들이 이상한 말을\n            할지도 모르오. 그러니 내가 고을 사람들을 모아 놓고 증인을 서 주고\n            증서도 만들어 주리다. 군수인 내가 서명을 해 주겠소.”\n          </p>\n        </div>\n      ",
+      "units": [
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문1)</span>&nbsp;㉠에 들어갈 알맞은 말을\n          고르시오.\n        </p>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 1,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">①</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;이 글에서 부자는 신분\n            때문에 아무리 돈이 많아도 양반에게 굽실거려야 하는 처지를 불평하고\n            있다. 따라서 ①이 가장 적절하다.\n          </p>\n        ",
+          "bogey": ["① 낮고 천하단 말이야", "② 신분을 살 수 없단 말이야", "③ 가난하고 궁핍하단 말이야", "④ 곡식을 빌릴 수 없단 말이야", "⑤ 관찰사에게 잘 보일 수 없단 말이야"]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문2)</span>&nbsp;&lt;보기&gt;를 참고할 때,\n          이 글에 대한 감상으로 적절하지&nbsp;않은&nbsp;것은?\n        </p>\n        <div class=\"mmQuesBox\">\n          &lt;보기&gt;<br>\n          ‘양반전’은 조선 후기를 배경으로 한다. 조선 후기에는 임진왜란과\n          병자호란이라는 고난을 거치면서 경제적으로 몰락하는 양반이 나타났다.\n          반면 경제적으로 상업이 발달하고 농업 생산력이 증가하면서 새롭게 부를\n          축적한 평민 부자 계층이 등장했다. 이들이 신분 상승을 꾀하면서 신분제가\n          동요하는 등 사회적 차원의 혼란이 나타났다. 그런데 당시 조선은 국가적\n          차원에서 국가 재정의 부족함을 해결하기 이러한 평민들에게 돈을 받고\n          합법적으로 신분을 상승시켜 주기도 했다.\n        </div>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 3,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">③</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;군수는 부자가 양반\n            직책 사는 것에 대해 긍정적으로 생각하고, 증인이 되어&nbsp;이를\n            확실하게 하고자 할 뿐이다. 군수가 부자에게 돈을 받고 신분을 상승시켜\n            주는 모습은 나타나 있지 않다. 따라서 적절하지 않다.\n          </p>\n        ",
+          "bogey": [
+            "\\n        ① 자전거 타기를 생활화했을 때 나타나는 문제점을 지적하는 자료로 활용할\\n        수 있겠군.\\n      \n        ",
+            "\n          ② <보기>의 경제적 측면을 보니, ‘부자’는 농업과 상업의 발달로\n          새롭게 부를 축적한 인물로 볼 수 있군.\n        ",
+            "\n          ③ <보기>의 사회적 측면을 보니 ‘군수’는 ‘부자’에게 돈을 받고 그\n          대가로 ‘부자’를 양반으로 상승시켜 주고 있다고 볼 수 있군.\n        ",
+            "\n          ④ <보기>의 조선 후기 시대상을 보니, ‘양반’은 전쟁 이후\n          경제적으로 몰락한 양반층을 대표하는 인물이라 할 수 있군.\n        ",
+            "\n          ⑤ <보기>의 사회적 측면을 보니 ‘부자’와 ‘양반’의 신분 매매 행위는\n          신분 질서 동요와 관련 있음을 알 수 있군. \n        "
+          ]
+        },
+        {
+          "text": "\n        <p class=\"mm\">\n          <span class=\"mmBold mmRed\">(문3)</span>&nbsp;밑줄 친 낱말이 ㉡과 같은\n          의미로 쓰인 것은?\n        </p>\n        \n        \n        \n        \n        \n        \n      ",
+          "answer": 1,
+          "explanation": "\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(정답)</span><span class=\"answer\">①</span>\n          </p>\n          <p class=\"mm\">\n            <span class=\"mmBold mmRed\">(해설)</span>&nbsp;㉡은 ‘앞말이 뜻하는\n            행동을 끝내고 그 결과를 유지함’의 의미에 해당한다.&nbsp;따라서\n            적절하다.\n          </p>\n        ",
+          "bogey": [
+            "\n          ① 그 창문은 열어 놓지 않았다. \n        ",
+            "\n          ② 그 천에 십자수를 놓지 마라.\n        ",
+            "\n          ③ 물건을 아무 곳에 놓지 마라. \n        ",
+            "\n          ④ 잡고 있던 멱살을 놓지 않았다. \n        ",
+            "\n          ⑤ 힘이 들어도 결코 맡은 일을 놓지 않았다.\n        "
+          ]
+        }
+      ]
+    }
+  }
+]

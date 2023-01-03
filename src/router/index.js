@@ -5,6 +5,7 @@ import SlotParent from '../views/test-slot/SlotParent.vue'
 import MyParse from '../views/myparse/Myparse.vue'
 import MyParse2 from '../views/myparse/Myparse2.vue'
 import Bogey from '../views/bogey/Bogey.vue'
+import Arrange from '../views/arrange_dummy/Arrange.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -46,6 +47,11 @@ const router = createRouter({
       path: '/myparse2',
       name: 'MyParse2',
       component: MyParse2,
+    },
+    {
+      path: '/arrange',
+      name: 'Arrange',
+      component: Arrange,
     },
   ],
 })

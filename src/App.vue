@@ -24,6 +24,8 @@
         <RouterLink to="/slot">slotTest</RouterLink>
         <RouterLink to="/myparse">파싱테슷</RouterLink>
         <RouterLink to="/myparse2">파싱테슷2</RouterLink>
+        <RouterLink to="/myparse2">파싱테슷2</RouterLink>
+        <RouterLink to="/arrange">HTML to JSON</RouterLink>
       </nav>
     </div>
   </header>
